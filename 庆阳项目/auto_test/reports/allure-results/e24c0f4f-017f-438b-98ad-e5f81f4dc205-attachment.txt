@@ -1,0 +1,3 @@
+DEBUG    auto_test:http_client.py:48 [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkFileMd5 → 200 (0.015s)
+  REQ: -
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577168404}

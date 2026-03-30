@@ -1,0 +1,9 @@
+DEBUG    auto_test:http_client.py:115 [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate → 200 (0.034s)
+  REQ: {"name": "crud_prxwqa", "title": "CRUD", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577730090", "success": true, "isSuccess": true, "isFail": false}
+DEBUG    auto_test:http_client.py:115 [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate → 200 (0.037s)
+  REQ: {"current": 1, "size": 20, "sort": "", "order": "descending", "model": {"name": "crud_prxwqa", "status": null}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"id": "2037352782030278658", "name": "crud_prxwqa", "iconUrl": "", "title": "CRUD", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-27 10:15:30", "domains": [{"id": "2037352782063833090", "createTime": "2026-03-27 10:15:30", "createUser": "2036984254247677953", "updateTime": "2026-03-27 10:15:30", "updateUser": "2036984254247677953", "templateId": "2037352782030278658", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}], "total": "1", 
+DEBUG    auto_test:http_client.py:115 [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate → 200 (0.020s)
+  REQ: -
+  RSP: {"code": 0, "data": {"id": "2037352782030278658", "name": "crud_prxwqa", "iconUrl": "", "title": "CRUD", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-27 10:15:30", "domains": [{"id": "2037352782063833090", "createTime": "2026-03-27 10:15:30", "createUser": "2036984254247677953", "updateTime": "2026-03-27 10:15:30", "updateUser": "2036984254247677953", "templateId": "2037352782030278658", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}, "msg": "ok", "path": null, "

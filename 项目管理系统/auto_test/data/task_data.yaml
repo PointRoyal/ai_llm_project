@@ -1,0 +1,147 @@
+# ============================================================
+# 任务模块接口测试数据
+# ============================================================
+
+# 公共任务模板（用于update接口tasks字段中复用）
+task_templates:
+  base_task: &base_task
+    creator: ""
+    colorTag: "normal"
+    parentTaskId: "0"
+    predecessorTaskId: null
+    followerId: null
+    projectId: "2033738337043685378"
+
+  single_normal_task:
+    - <<: *base_task
+      id: "1773715019830"
+      name: "发布"
+      startDate: "2024-06-05"
+      endDate: "2024-06-05"
+      duration: 1
+      progress: 0
+
+# ---- 任务时间校验场景 ----
+task_time_validation:
+
+  end_before_start:
+    desc: "任务结束时间早于开始时间"
+    task:
+      id: "1773715019830"
+      name: "时间异常任务"
+      startDate: "2026-05-10"
+      endDate: "2026-01-01"
+      duration: 1
+      progress: 0
+      creator: ""
+      colorTag: "normal"
+      parentTaskId: "0"
+      predecessorTaskId: null
+      followerId: null
+      projectId: "2033738337043685378"
+    expect:
+      success: false
+      bug_risk: "结束时间早于开始时间，后端未校验"
+
+  same_start_end:
+    desc: "开始时间等于结束时间（单天任务）"
+    task:
+      id: "1773715019830"
+      name: "单天任务"
+      startDate: "2026-03-16"
+      endDate: "2026-03-16"
+      duration: 1
+      progress: 0
+      creator: ""
+      colorTag: "normal"
+      parentTaskId: "0"
+      predecessorTaskId: null
+      followerId: null
+      projectId: "2033738337043685378"
+    expect:
+      code: 0
+
+# ---- 任务进度校验场景 ----
+task_progress_validation:
+
+  progress_zero:
+    desc: "进度=0（边界最小值）"
+    progress: 0
+    expect:
+      code: 0
+
+  progress_hundred:
+    desc: "进度=100（边界最大值）"
+    progress: 100
+    expect:
+      code: 0
+
+  progress_over_hundred:
+    desc: "进度=101（超出范围）"
+    progress: 101
+    expect:
+      success: false
+
+  progress_negative:
+    desc: "进度=-1（负数）"
+    progress: -1
+    expect:
+      success: false
+
+  progress_decimal:
+    desc: "进度=16.11（小数，来自真实数据）"
+    progress: 16.11
+    expect:
+      code: 0
+
+# ---- 前置任务场景 ----
+predecessor_task:
+
+  valid_predecessor:
+    desc: "设置有效前置任务"
+    predecessor_task:
+      id: "1773715016347"
+      name: "接触"
+      startDate: "2026-02-27"
+      endDate: "2026-03-25"
+      duration: 6
+      progress: 16.11
+      creator: ""
+      colorTag: "normal"
+      parentTaskId: "0"
+      predecessorTaskId: null
+      followerId: "2029796795590172673"
+      projectId: "2033738337043685378"
+    current_task:
+      id: "1773715020997"
+      name: "收钱"
+      startDate: "2026-03-24"   # 应为前置任务结束时间-1天
+      endDate: "2026-03-30"
+      duration: 3
+      progress: 0
+      creator: ""
+      colorTag: "normal"
+      parentTaskId: "1773715021224"
+      predecessorTaskId: "1773715016347"
+      projectId: "2033738337043685378"
+    expect:
+      code: 0
+
+# ---- 批量任务场景 ----
+batch_tasks:
+
+  tasks_count_1:
+    desc: "仅1个任务"
+    count: 1
+
+  tasks_count_10:
+    desc: "10个任务"
+    count: 10
+
+  tasks_count_22:
+    desc: "22个任务（真实数据量）"
+    count: 22
+
+  tasks_count_50:
+    desc: "50个任务（压力边界）"
+    count: 50

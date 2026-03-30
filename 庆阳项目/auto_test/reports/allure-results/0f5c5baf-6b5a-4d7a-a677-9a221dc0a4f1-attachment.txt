@@ -1,0 +1,3 @@
+DEBUG    auto_test:http_client.py:115 [POST] http://10.50.31.141:28002/gateway/api/submission/listCheckUser → 200 (0.020s)
+  REQ: -
+  RSP: {"code": 0, "data": [{"id": "2034156690675142658", "name": "余伟达"}, {"id": "2034170831255179265", "name": "汪世杰"}, {"id": "2036777559787745281", "name": "曹端森"}, {"id": "2036974256454209538", "name": "审核人员1"}, {"id": "2036974439720128514", "name": "审核人员2"}, {"id": "2036984254247677953", "name": "gxx"}, {"id": "2037004577480224769", "name": "gxx审核1"}, {"id": "2037042811966959617", "name": "gxx_02"}], "msg": "ok", "path": null, "extra": null, "timestamp": "1774577593701", "success": true, "isSuccess"

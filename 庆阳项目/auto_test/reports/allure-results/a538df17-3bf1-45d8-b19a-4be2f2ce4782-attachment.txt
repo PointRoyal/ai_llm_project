@@ -1,0 +1,3 @@
+DEBUG    auto_test:http_client.py:48 [GET] http://10.50.31.141:28003/gateway/api/app/submission/listTemplate → 200 (0.013s)
+  REQ: -
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577168420}

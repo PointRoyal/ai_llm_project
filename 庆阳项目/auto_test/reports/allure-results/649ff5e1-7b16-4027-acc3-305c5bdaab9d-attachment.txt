@@ -1,0 +1,4 @@
+10:41:55 [INFO] 用户端 HttpClient 初始化，base_url=http://10.50.31.141:28003/gateway
+10:41:55 [DEBUG] [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode  →  200  (0.039s)
+  REQ : -
+  RESP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774492916004", "isSuccess": true, "success": true, "isFail": false}

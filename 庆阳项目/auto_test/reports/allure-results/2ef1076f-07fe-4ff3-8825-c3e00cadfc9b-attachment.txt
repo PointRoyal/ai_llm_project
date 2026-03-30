@@ -1,0 +1,3 @@
+10:28:12 [DEBUG] [POST] http://10.50.31.141:28002/gateway/api/submission/listCheckUser  →  200  (0.105s)
+  REQ : -
+  RESP: {"code": 0, "data": [{"id": "2034156690675142658", "name": "余伟达"}, {"id": "2034170831255179265", "name": "汪世杰"}, {"id": "2036777559787745281", "name": "曹端森"}, {"id": "2036974256454209538", "name": "审核人员1"}, {"id": "2036974439720128514", "name": "审核人员2"}], "msg": "ok", "path": null, "extra": null, "timestamp": "1774492092908", "isSuccess": true, "success": true, "isFail": false}

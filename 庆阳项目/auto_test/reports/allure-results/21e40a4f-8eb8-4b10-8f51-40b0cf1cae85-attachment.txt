@@ -1,0 +1,6 @@
+DEBUG    auto_test:http_client.py:115 [GET] http://10.50.31.141:28002/gateway/api/submission/countAdminSubmission → 200 (0.041s)
+  REQ: -
+  RSP: {"code": 0, "data": {"total": 8, "countAllocation": 0, "countReceive": null, "countAudit": 2, "countAuditing": 2, "countPass": 2, "countReject": 0, "countProcessing": 2, "countTransfer": null}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577728515", "success": true, "isSuccess": true, "isFail": false}
+DEBUG    auto_test:http_client.py:115 [GET] http://10.50.31.141:28002/gateway/api/submission/countReviewSubmission → 200 (0.029s)
+  REQ: -
+  RSP: {"code": 0, "data": {"total": 2, "countAllocation": null, "countReceive": 1, "countAudit": 0, "countAuditing": 1, "countPass": 0, "countReject": 0, "countProcessing": null, "countTransfer": 0}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577728551", "success": true, "isSuccess": true, "isFail": false}

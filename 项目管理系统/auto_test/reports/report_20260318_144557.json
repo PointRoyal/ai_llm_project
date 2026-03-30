@@ -1,0 +1,477 @@
+[
+  {
+    "case_id": "PROJ_UPDATE-001",
+    "title": "正常更新项目信息",
+    "module": "创建/更新项目",
+    "status": "FAIL",
+    "elapsed_ms": 66.11919403076172,
+    "request_body": {
+      "id": "2033738337043685378",
+      "projectName": "这是一个非常重要非常有名气非常有钱非常有名提高企业知名度非常重要的项目之宁波可信数据空间提前实施部署",
+      "city": "上海",
+      "startDate": "2024-06-05",
+      "endDate": "2027-11-24",
+      "status": 1,
+      "owner": "2029796795590172673",
+      "milestones": "[]",
+      "tasks": [
+        {
+          "id": "1773715019830",
+          "name": "发布",
+          "startDate": "2024-06-05",
+          "endDate": "2024-06-05",
+          "duration": 1,
+          "progress": 0,
+          "creator": "",
+          "colorTag": "normal",
+          "parentTaskId": "0",
+          "predecessorTaskId": null,
+          "followerId": null,
+          "projectId": "2033738337043685378"
+        },
+        {
+          "id": "1773715016347",
+          "name": "接触",
+          "startDate": "2026-02-27",
+          "endDate": "2026-03-25",
+          "duration": 6,
+          "progress": 16.11,
+          "creator": "",
+          "colorTag": "normal",
+          "parentTaskId": "0",
+          "predecessorTaskId": null,
+          "followerId": "2029796795590172673",
+          "projectId": "2033738337043685378"
+        }
+      ]
+    },
+    "response_body": {
+      "code": 10002,
+      "defExec": false,
+      "isFail": true,
+      "isSuccess": false,
+      "msg": "用户已在他处登录，请重新登录!",
+      "success": false,
+      "timestamp": 1773816233390
+    },
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:43:53"
+  },
+  {
+    "case_id": "PROJ_UPDATE-002",
+    "title": "更新字段后验证数据持久化",
+    "module": "创建/更新项目",
+    "status": "FAIL",
+    "elapsed_ms": 37.57524490356445,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "查询不到目标项目\nassert None is not None",
+    "executed_at": "2026-03-18 14:43:58"
+  },
+  {
+    "case_id": "PROJ_UPDATE-003",
+    "title": "将项目状态改为已归档",
+    "module": "创建/更新项目",
+    "status": "FAIL",
+    "elapsed_ms": 22.105932235717773,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:44:03"
+  },
+  {
+    "case_id": "PROJ_UPDATE-ERR-001",
+    "title": "项目名称为空",
+    "module": "创建/更新项目",
+    "status": "PASS",
+    "elapsed_ms": 56.52976036071777,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-18 14:44:08"
+  },
+  {
+    "case_id": "PROJ_UPDATE-ERR-002",
+    "title": "结束时间早于开始时间应被拒绝",
+    "module": "创建/更新项目",
+    "status": "PASS",
+    "elapsed_ms": 25.821208953857422,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-18 14:44:13"
+  },
+  {
+    "case_id": "PROJ_UPDATE-ERR-003",
+    "title": "项目名称超长（100字符以上）",
+    "module": "创建/更新项目",
+    "status": "PASS",
+    "elapsed_ms": 28.512954711914062,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-18 14:44:19"
+  },
+  {
+    "case_id": "PROJ_UPDATE-SEC-001",
+    "title": "项目名称含XSS注入",
+    "module": "创建/更新项目",
+    "status": "PASS",
+    "elapsed_ms": 37.28985786437988,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-18 14:44:24"
+  },
+  {
+    "case_id": "PROJ_UPDATE-SEC-002",
+    "title": "城市字段SQL注入",
+    "module": "创建/更新项目",
+    "status": "PASS",
+    "elapsed_ms": 17.92311668395996,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-18 14:44:29"
+  },
+  {
+    "case_id": "PROJ_UPDATE-AUTH-001",
+    "title": "无Token更新项目应被拒绝",
+    "module": "创建/更新项目",
+    "status": "PASS",
+    "elapsed_ms": 46.61107063293457,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-18 14:44:34"
+  },
+  {
+    "case_id": "PROJ_UPDATE-PERF-001",
+    "title": "更新接口响应时间基线（<5s）",
+    "module": "创建/更新项目",
+    "status": "FAIL",
+    "elapsed_ms": 26.78513526916504,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:44:39"
+  },
+  {
+    "case_id": "PROJ_LIST-normal_full_params",
+    "title": "正常分页查询，size=10",
+    "module": "项目列表/查询",
+    "status": "FAIL",
+    "elapsed_ms": 24.947166442871094,
+    "request_body": {
+      "params": {
+        "current": 1,
+        "map": {}
+      },
+      "model": {
+        "order": "asc",
+        "size": 10,
+        "sort": "createTime"
+      }
+    },
+    "response_body": {
+      "code": 10002,
+      "defExec": false,
+      "isFail": true,
+      "isSuccess": false,
+      "msg": "用户已在他处登录，请重新登录!",
+      "success": false,
+      "timestamp": 1773816281455
+    },
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:44:41"
+  },
+  {
+    "case_id": "PROJ_LIST-normal_large_page",
+    "title": "size=999 获取全量",
+    "module": "项目列表/查询",
+    "status": "FAIL",
+    "elapsed_ms": 25.617122650146484,
+    "request_body": {
+      "params": {
+        "current": 1,
+        "map": {}
+      },
+      "model": {
+        "order": "asc",
+        "size": 999,
+        "sort": "createTime"
+      }
+    },
+    "response_body": {
+      "code": 10002,
+      "defExec": false,
+      "isFail": true,
+      "isSuccess": false,
+      "msg": "用户已在他处登录，请重新登录!",
+      "success": false,
+      "timestamp": 1773816281477
+    },
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:44:41"
+  },
+  {
+    "case_id": "PROJ_LIST-sort_desc",
+    "title": "按createTime降序",
+    "module": "项目列表/查询",
+    "status": "FAIL",
+    "elapsed_ms": 14.389991760253906,
+    "request_body": {
+      "params": {
+        "current": 1,
+        "map": {}
+      },
+      "model": {
+        "order": "desc",
+        "size": 10,
+        "sort": "createTime"
+      }
+    },
+    "response_body": {
+      "code": 10002,
+      "defExec": false,
+      "isFail": true,
+      "isSuccess": false,
+      "msg": "用户已在他处登录，请重新登录!",
+      "success": false,
+      "timestamp": 1773816281502
+    },
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:44:41"
+  },
+  {
+    "case_id": "PROJ_LIST-FIELD-001",
+    "title": "响应字段完整性校验",
+    "module": "项目列表/查询",
+    "status": "FAIL",
+    "elapsed_ms": 24.309873580932617,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:44:41"
+  },
+  {
+    "case_id": "PROJ_LIST-BOUND-001",
+    "title": "current超出总页数",
+    "module": "项目列表/查询",
+    "status": "PASS",
+    "elapsed_ms": 12.345075607299805,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-18 14:44:41"
+  },
+  {
+    "case_id": "PROJ_LIST-AUTH-001",
+    "title": "无鉴权Token",
+    "module": "项目列表/查询",
+    "status": "PASS",
+    "elapsed_ms": 13.211965560913086,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-18 14:44:41"
+  },
+  {
+    "case_id": "PROJ_LIST-ERR-001",
+    "title": "请求体为空",
+    "module": "项目列表/查询",
+    "status": "PASS",
+    "elapsed_ms": 15.670061111450195,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-18 14:44:41"
+  },
+  {
+    "case_id": "PROJ_LIST-BUG-001",
+    "title": "验证已知Bug：结束时间早于开始时间的项目",
+    "module": "项目列表/查询",
+    "status": "FAIL",
+    "elapsed_ms": 17.87400245666504,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:44:41"
+  },
+  {
+    "case_id": "PROJ_LIST-PERF-001",
+    "title": "列表查询响应时间基线（<5s）",
+    "module": "项目列表/性能",
+    "status": "FAIL",
+    "elapsed_ms": 24.904966354370117,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:44:41"
+  },
+  {
+    "case_id": "TASK_MGMT-PROG-0",
+    "title": "任务进度=0（合法）",
+    "module": "任务管理/进度",
+    "status": "FAIL",
+    "elapsed_ms": 26.782989501953125,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:44:44"
+  },
+  {
+    "case_id": "TASK_MGMT-PROG-50",
+    "title": "任务进度=50（合法）",
+    "module": "任务管理/进度",
+    "status": "FAIL",
+    "elapsed_ms": 20.4470157623291,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:44:49"
+  },
+  {
+    "case_id": "TASK_MGMT-PROG-100",
+    "title": "任务进度=100（合法）",
+    "module": "任务管理/进度",
+    "status": "FAIL",
+    "elapsed_ms": 14.804840087890625,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:44:54"
+  },
+  {
+    "case_id": "TASK_MGMT-PROG-16.11",
+    "title": "任务进度=16.11（合法）",
+    "module": "任务管理/进度",
+    "status": "FAIL",
+    "elapsed_ms": 23.681163787841797,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:44:59"
+  },
+  {
+    "case_id": "TASK_MGMT-PROG-101",
+    "title": "任务进度=101（非法）",
+    "module": "任务管理/进度",
+    "status": "PASS",
+    "elapsed_ms": 25.472164154052734,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-18 14:45:04"
+  },
+  {
+    "case_id": "TASK_MGMT-PROG--1",
+    "title": "任务进度=-1（非法）",
+    "module": "任务管理/进度",
+    "status": "PASS",
+    "elapsed_ms": 25.94733238220215,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-18 14:45:09"
+  },
+  {
+    "case_id": "TASK_MGMT-TIME-001",
+    "title": "任务结束时间早于开始时间应被拒绝",
+    "module": "任务管理/时间",
+    "status": "PASS",
+    "elapsed_ms": 15.260934829711914,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-18 14:45:14"
+  },
+  {
+    "case_id": "TASK_MGMT-TIME-002",
+    "title": "单天任务（开始=结束日期）",
+    "module": "任务管理/时间",
+    "status": "FAIL",
+    "elapsed_ms": 88.33003044128418,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:45:19"
+  },
+  {
+    "case_id": "TASK_MGMT-PRE-001",
+    "title": "设置有效前置任务",
+    "module": "任务管理/前置任务",
+    "status": "FAIL",
+    "elapsed_ms": 47.856807708740234,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:45:25"
+  },
+  {
+    "case_id": "TASK_MGMT-SUB-001",
+    "title": "设置父子任务关系",
+    "module": "任务管理/子任务",
+    "status": "FAIL",
+    "elapsed_ms": 16.85786247253418,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:45:30"
+  },
+  {
+    "case_id": "TASK_MGMT-PERF-1",
+    "title": "提交1个任务的响应时间: 25ms",
+    "module": "任务管理/性能",
+    "status": "FAIL",
+    "elapsed_ms": 25.224924087524414,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:45:35"
+  },
+  {
+    "case_id": "TASK_MGMT-PERF-5",
+    "title": "提交5个任务的响应时间: 16ms",
+    "module": "任务管理/性能",
+    "status": "FAIL",
+    "elapsed_ms": 15.577077865600586,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:45:40"
+  },
+  {
+    "case_id": "TASK_MGMT-PERF-10",
+    "title": "提交10个任务的响应时间: 22ms",
+    "module": "任务管理/性能",
+    "status": "FAIL",
+    "elapsed_ms": 21.82602882385254,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:45:45"
+  },
+  {
+    "case_id": "TASK_MGMT-PERF-22",
+    "title": "提交22个任务的响应时间: 32ms",
+    "module": "任务管理/性能",
+    "status": "FAIL",
+    "elapsed_ms": 31.62693977355957,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "业务code异常: 期望0, 实际10002 | msg=用户已在他处登录，请重新登录!",
+    "executed_at": "2026-03-18 14:45:50"
+  },
+  {
+    "case_id": "TASK_MGMT-ERR-001",
+    "title": "提交空任务列表不崩溃",
+    "module": "任务管理/异常",
+    "status": "PASS",
+    "elapsed_ms": 24.90687370300293,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-18 14:45:55"
+  }
+]

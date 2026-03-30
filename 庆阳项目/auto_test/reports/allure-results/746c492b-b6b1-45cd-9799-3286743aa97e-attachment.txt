@@ -1,0 +1,18 @@
+10:28:15 [DEBUG] [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate  →  200  (0.038s)
+  REQ : {"name": "CRUD_doiypn", "title": "CRUD 测试模板", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492095696", "isSuccess": true, "success": true, "isFail": false}
+10:28:15 [DEBUG] [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate  →  200  (0.038s)
+  REQ : {"current": 1, "size": 20, "sort": "", "order": "descending", "model": {"name": "CRUD_doiypn", "status": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993605339394050", "name": "CRUD_doiypn", "iconUrl": "", "title": "CRUD 测试模板", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-26 10:28:16", "domains": [{"id": "2036993605377142786", "createTime": "2026-03-26 10:28:16", "createUser": "2036984254247677953", "updateTime": "2026-03-26 10:28:16", "updateUser": "2036984254247677953", "templateId": "2036993605339394050", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}], "total": 
+10:28:15 [DEBUG] [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate  →  200  (0.026s)
+  REQ : -
+  RESP: {"code": 0, "data": {"id": "2036993605339394050", "name": "CRUD_doiypn", "iconUrl": "", "title": "CRUD 测试模板", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-26 10:28:16", "domains": [{"id": "2036993605377142786", "createTime": "2026-03-26 10:28:16", "createUser": "2036984254247677953", "updateTime": "2026-03-26 10:28:16", "updateUser": "2036984254247677953", "templateId": "2036993605339394050", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}, "msg": "ok", "path": nu
+10:28:15 [DEBUG] [POST] http://10.50.31.141:28002/gateway/api/template/updateTemplate  →  200  (0.274s)
+  REQ : {"id": "2036993605339394050", "name": "CRUD_doiypn_updated", "title": "已更新标题", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492095831", "isSuccess": true, "success": true, "isFail": false}
+10:28:15 [DEBUG] [POST] http://10.50.31.141:28002/gateway/api/template/disableTemplate  →  200  (0.042s)
+  REQ : {"id": "2036993605339394050", "name": "CRUD_doiypn_updated", "domain": ["TD_HSGS"], "status": 0}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492096067", "isSuccess": true, "success": true, "isFail": false}
+10:28:15 [DEBUG] [POST] http://10.50.31.141:28002/gateway/api/template/deleteTemplate  →  200  (0.029s)
+  REQ : {"id": "2036993605339394050", "name": "CRUD_doiypn_updated", "domain": ["TD_HSGS"]}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492096107", "isSuccess": true, "success": true, "isFail": false}

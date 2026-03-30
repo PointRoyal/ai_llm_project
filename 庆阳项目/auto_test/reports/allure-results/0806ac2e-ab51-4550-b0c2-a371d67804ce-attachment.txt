@@ -1,0 +1,3 @@
+10:27:17 [DEBUG] [POST] http://10.50.31.141:28003/gateway/api/app/appUser/registerAppUser  →  200  (0.029s)
+  REQ : {"account": "13800000001", "password": "Zo3r2Lo5$#", "name": "重复注册", "station": ""}
+  RESP: {"code": 0, "data": {"id": "2036993363747483650", "createTime": "2026-03-26 10:27:18", "createUser": "2036978068114845697", "updateTime": "2026-03-26 10:27:18", "updateUser": "2036978068114845697", "account": "13800000001", "name": "重复注册", "idCard": null, "org": null, "station": "", "email": null, "mobile": null, "sex": null, "status": true, "firstLoginFlag": null, "avatar": null, "nation": null, "education": null, "positionStatus": null, "roles": null, "workDescribe": null, "passwordErrorLastTi

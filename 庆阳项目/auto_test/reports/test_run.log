@@ -1,0 +1,1068 @@
+2026-03-26 10:27:16 [INFO] auto_test — 管理端 HttpClient 初始化，base_url=http://10.50.31.141:28002/gateway
+2026-03-26 10:27:16 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission  →  200  (0.057s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "", "status": "", "domainCode": "", "urgencyStatus": "", "submitStartDate": "", "submitEndDate": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492036584", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:16 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission  →  200  (0.028s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "红色", "status": "", "domainCode": "", "urgencyStatus": "", "submitStartDate": "", "submitEndDate": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492036618", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:16 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission  →  200  (0.050s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "", "status": "", "domainCode": "", "urgencyStatus": "", "submitStartDate": "2025-01-01", "submitEndDate": "2025-12-31"}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492036659", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:16 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission  →  200  (0.109s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "不存在的标题xxxyyy9999", "status": "", "domainCode": "", "urgencyStatus": "", "submitStartDate": "", "submitEndDate": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492036714", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:16 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/countAdminSubmission  →  200  (0.020s)
+  REQ : -
+  RESP: {"code": 0, "data": {"total": 0, "countAllocation": 0, "countReceive": null, "countAudit": 0, "countAuditing": 0, "countPass": 0, "countReject": 0, "countProcessing": 0, "countTransfer": null}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492036815", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:16 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/countReviewSubmission  →  200  (0.019s)
+  REQ : -
+  RESP: {"code": 0, "data": {"total": 0, "countAllocation": null, "countReceive": 0, "countAudit": 0, "countAuditing": 0, "countPass": 0, "countReject": 0, "countProcessing": null, "countTransfer": 0}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492036840", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:16 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageReviewSubmission  →  200  (0.027s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "", "status": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492036864", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:16 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAllocationSubmission  →  200  (0.028s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492036903", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:16 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/listCheckUser  →  200  (0.029s)
+  REQ : -
+  RESP: {"code": 0, "data": [{"id": "2034156690675142658", "name": "余伟达"}, {"id": "2034170831255179265", "name": "汪世杰"}, {"id": "2036777559787745281", "name": "曹端森"}, {"id": "2036974256454209538", "name": "审核人员1"}, {"id": "2036974439720128514", "name": "审核人员2"}], "msg": "ok", "path": null, "extra": null, "timestamp": "1774492036942", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:16 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/detailSubmission/999999999  →  200  (0.023s)
+  REQ : -
+  RESP: {"code": 20004, "data": "", "msg": "稿件不存在", "path": "/api/submission/detailSubmission/999999999", "extra": null, "timestamp": "1774492036971", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:16 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/submissionLog/999999999  →  200  (0.033s)
+  REQ : -
+  RESP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774492037010", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:16 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/receiveSubmission  →  200  (0.059s)
+  REQ : {"submissionId": 999999, "taskId": 999999, "assigneeId": 0, "remark": "", "status": 1}
+  RESP: {"code": 20004, "data": "", "msg": "稿件不存在", "path": "/api/submission/receiveSubmission", "extra": null, "timestamp": "1774492037064", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:16 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/dealSubmission  →  200  (0.097s)
+  REQ : {"submissionId": 999999, "taskId": 999999, "assigneeId": 0, "remark": "", "status": 1}
+  RESP: {"code": 20004, "data": "", "msg": "稿件不存在", "path": "/api/submission/dealSubmission", "extra": null, "timestamp": "1774492037105", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:16 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/transferSubmission  →  200  (0.021s)
+  REQ : {"submissionId": 999999, "taskId": 999999, "assigneeId": 0, "assigneeName": "", "assigneeRemark": "", "remark": "", "status": 1}
+  RESP: {"code": -1, "data": null, "msg": "转办处理人ID为空", "path": null, "extra": null, "timestamp": "1774492037203", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:17 [INFO] auto_test — 用户端 HttpClient 初始化，base_url=http://10.50.31.141:28003/gateway
+2026-03-26 10:27:17 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/submission/pageAdminSubmission  →  200  (0.100s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "", "status": "", "domainCode": "", "urgencyStatus": "", "submitStartDate": "", "submitEndDate": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492037247", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:17 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/pageSubmissionRepetition  →  200  (0.042s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"submissionId": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492037435", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:17 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/getSubmissionRepetition  →  200  (0.028s)
+  REQ : {"submissionId": 999999999}
+  RESP: {"code": -1, "data": null, "msg": "稿件标题和内容不能为空", "path": null, "extra": null, "timestamp": "1774492037462", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:17 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page  →  200  (0.040s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "", "station": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036978068114845697", "account": "18862982631", "name": "大d", "station": "", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}, {"id": "2036773091562139649", "account": "17770848238", "name": "forest", "station": "forest", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}, {"id": "2036766466035208194
+2026-03-26 10:27:17 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page  →  200  (0.030s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "测试", "station": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492037544", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:17 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page  →  200  (0.024s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "zzzznotexist9999", "station": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492037569", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:17 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/update  →  200  (0.045s)
+  REQ : {"id": 9999999, "name": "非法更新测试", "station": ""}
+  RESP: {"code": -9, "data": "", "msg": "所属单位不能为空", "path": "/api/system/appUser/update", "extra": null, "timestamp": "1774492037613", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:17 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page  →  200  (0.016s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "", "station": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774492037645}
+2026-03-26 10:27:17 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login  →  200  (0.032s)
+  REQ : {"account": "13800000001", "password": "WrongPwd@999", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RESP: {"code": 20004, "data": "", "msg": "用户名或密码错误!", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774492037686", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:17 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login  →  200  (0.212s)
+  REQ : {"account": "10000000001", "password": "AnyPwd@123", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RESP: {"code": 20004, "data": "", "msg": "用户名或密码错误!", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774492037852", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:17 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login  →  200  (0.124s)
+  REQ : {"account": "", "password": "AnyPwd@123", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RESP: {"code": -9, "data": "", "msg": "个数必须在1和50之间", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774492037960", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:17 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/registerAppUser  →  200  (0.019s)
+  REQ : {"account": "15568802969", "password": "ud%K5Q0r$7", "name": "测试用户_自动化", "station": "测试单位"}
+  RESP: {"code": 0, "data": {"id": "2036993363613265922", "createTime": "2026-03-26 10:27:18", "createUser": "2036978068114845697", "updateTime": "2026-03-26 10:27:18", "updateUser": "2036978068114845697", "account": "15568802969", "name": "测试用户_自动化", "idCard": null, "org": null, "station": "测试单位", "email": null, "mobile": null, "sex": null, "status": true, "firstLoginFlag": null, "avatar": null, "nation": null, "education": null, "positionStatus": null, "roles": null, "workDescribe": null, "passwordErr
+2026-03-26 10:27:17 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/registerAppUser  →  200  (0.029s)
+  REQ : {"account": "13800000001", "password": "Zo3r2Lo5$#", "name": "重复注册", "station": ""}
+  RESP: {"code": 0, "data": {"id": "2036993363747483650", "createTime": "2026-03-26 10:27:18", "createUser": "2036978068114845697", "updateTime": "2026-03-26 10:27:18", "updateUser": "2036978068114845697", "account": "13800000001", "name": "重复注册", "idCard": null, "org": null, "station": "", "email": null, "mobile": null, "sex": null, "status": true, "firstLoginFlag": null, "avatar": null, "nation": null, "education": null, "positionStatus": null, "roles": null, "workDescribe": null, "passwordErrorLastTi
+2026-03-26 10:27:17 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode  →  200  (0.019s)
+  REQ : -
+  RESP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774492038104", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:17 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode  →  200  (0.012s)
+  REQ : -
+  RESP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774492038128", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:18 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile  →  200  (0.099s)
+  REQ : -
+  RESP: {"code": 10001, "data": "", "msg": "请求中必须至少包含一个有效文件", "path": "/api/pub/uploadFile", "extra": null, "timestamp": "1774492038158", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:18 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadImage  →  200  (0.021s)
+  REQ : -
+  RESP: {"code": 10001, "data": "", "msg": "请求中必须至少包含一个有效文件", "path": "/api/pub/uploadImage", "extra": null, "timestamp": "1774492038256", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:18 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/pub/remote/getFileUrl  →  200  (0.641s)
+  REQ : -
+  RESP: {"code": 0, "data": "http://10.50.31.155:9000/corpus//test/path/file.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20260326%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260326T022718Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c1fd1f9d8cc8e354991a15d641a60f52a63000c63a82fe5cf1731f118bf18775", "msg": "ok", "path": null, "extra": null, "timestamp": "1774492038892", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkFileMd5  →  200  (3.329s)
+  REQ : -
+  RESP: {"code": "101", "data": null, "msg": "该文件没有上传过。"}
+2026-03-26 10:27:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkChunk  →  200  (0.094s)
+  REQ : -
+  RESP: {"code": "-1", "data": false, "msg": "操作失败"}
+2026-03-26 10:27:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkFileMd5  →  200  (0.219s)
+  REQ : -
+  RESP: {"code": "101", "data": null, "msg": "该文件没有上传过。"}
+2026-03-26 10:27:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkChunk  →  200  (0.044s)
+  REQ : -
+  RESP: {"code": "-1", "data": false, "msg": "操作失败"}
+2026-03-26 10:27:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/fileUpload  →  200  (0.109s)
+  REQ : -
+  RESP: {"code": -5, "data": "", "msg": "系统繁忙~请稍候再试~", "path": "/api/pub/uploadFile/fileUpload", "extra": null, "timestamp": "1774492042710", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/mergeChunks  →  200  (0.079s)
+  REQ : -
+  RESP: {"code": 20004, "data": "", "msg": "merge失败！", "path": "/api/pub/uploadFile/mergeChunks", "extra": null, "timestamp": "1774492042789", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:22 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/submission/listTemplate  →  200  (0.084s)
+  REQ : -
+  RESP: {"code": 0, "data": [{"id": "2036984755353759745", "name": "test_01", "iconUrl": "/dbapp/static/file/260320/1774000095474/template-1.png", "title": "我的模板标题", "titleDesc": "这是一个模板", "contentElements": "我的内容故事", "status": 1, "updateTime": null, "domains": [{"id": "2036984755399897090", "createTime": "2026-03-26 09:53:06", "createUser": "2036984254247677953", "updateTime": "2026-03-26 09:53:06", "updateUser": "2036984254247677953", "templateId": "2036984755353759745", "domainCode": "TD_HSGS", "doma
+2026-03-26 10:27:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.065s)
+  REQ : {"title": "草稿_oons", "contentElements": "草稿内容，至少50字草稿内容，至少50字草稿内容，至少50字", "domainCode": "", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": -9, "data": "", "msg": "领域code不能为空", "path": "/api/app/submission/saveSubmission", "extra": null, "timestamp": "1774492042945", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:22 [WARNING] auto_test — [BUG] 已写入 bug.xlsx: testcases/test_submission.py::TestSubmission::test_save_draft
+2026-03-26 10:27:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.113s)
+  REQ : {"title": "", "contentElements": "内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容", "domainCode": "", "templateId": null, "anonymous": 0, "submitType": 1, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": -9, "data": "", "msg": "稿件标题不能为空", "path": "/api/app/submission/saveSubmission", "extra": null, "timestamp": "1774492042997", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.034s)
+  REQ : {"title": "有标题无内容", "contentElements": "", "domainCode": "", "templateId": null, "anonymous": 0, "submitType": 1, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": -9, "data": "", "msg": "稿件内容要素不能为空", "path": "/api/app/submission/saveSubmission", "extra": null, "timestamp": "1774492043120", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.049s)
+  REQ : {"title": "自动化投稿_rkyymi", "contentElements": "自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文", "domainCode": "", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": -9, "data": "", "msg": "领域code不能为空", "path": "/api/app/submission/saveSubmission", "extra": null, "timestamp": "1774492043166", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:23 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission  →  200  (0.101s)
+  REQ : {"current": 1, "size": 5, "sort": "", "order": "descending", "model": {"title": "", "status": "", "submitType": 0}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "5", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492043213", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:23 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission  →  200  (0.029s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": "", "status": "", "submitType": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492043305", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:23 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission  →  200  (0.019s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": "故事", "status": "", "submitType": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492043334", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:23 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/countMyselfSubmission  →  200  (0.027s)
+  REQ : -
+  RESP: {"code": 0, "data": {"countAll": 0, "countUnderReview": 0, "countPassed": 0, "countRejected": 0}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492043363", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:23 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission  →  200  (0.108s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": "草稿", "status": "", "submitType": 0}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492043390", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:23 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/submission/submissionLog/999999999  →  200  (0.125s)
+  REQ : -
+  RESP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774492043522", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:23 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.038s)
+  REQ : {"title": "匿名投稿_qguv", "contentElements": "匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容", "domainCode": "", "templateId": null, "anonymous": 1, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": -9, "data": "", "msg": "领域code不能为空", "path": "/api/app/submission/saveSubmission", "extra": null, "timestamp": "1774492043642", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:23 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission  →  200  (0.018s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": "", "status": "", "submitType": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774492043673}
+2026-03-26 10:27:23 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate  →  200  (0.034s)
+  REQ : {"name": "自动化模板_vpnj", "title": "自动化测试标题", "titleDesc": "自动化测试描述", "contentElements": "正文要求：100字以上", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492043709", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:23 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate  →  200  (0.109s)
+  REQ : {"name": "", "title": "标题", "titleDesc": "", "contentElements": "", "domain": [], "iconUrl": "", "status": 1}
+  RESP: {"code": -9, "data": "", "msg": "模板名称不能为空", "path": "/api/template/saveTemplate", "extra": null, "timestamp": "1774492043823", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:23 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate  →  200  (0.047s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"name": "", "status": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993387306889217", "name": "自动化模板_vpnj", "iconUrl": "", "title": "自动化测试标题", "titleDesc": "自动化测试描述", "contentElements": "正文要求：100字以上", "status": 1, "updateTime": "2026-03-26 10:27:24", "domains": [{"id": "2036993387319472129", "createTime": "2026-03-26 10:27:24", "createUser": "2036984254247677953", "updateTime": "2026-03-26 10:27:24", "updateUser": "2036984254247677953", "templateId": "2036993387306889217", "domainCode": "TD_HSGS", "domainName": "红色故事"
+2026-03-26 10:27:23 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate  →  200  (0.083s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"name": "自动化", "status": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993387306889217", "name": "自动化模板_vpnj", "iconUrl": "", "title": "自动化测试标题", "titleDesc": "自动化测试描述", "contentElements": "正文要求：100字以上", "status": 1, "updateTime": "2026-03-26 10:27:24", "domains": [{"id": "2036993387319472129", "createTime": "2026-03-26 10:27:24", "createUser": "2036984254247677953", "updateTime": "2026-03-26 10:27:24", "updateUser": "2036984254247677953", "templateId": "2036993387306889217", "domainCode": "TD_HSGS", "domainName": "红色故事"
+2026-03-26 10:27:23 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate  →  200  (0.168s)
+  REQ : -
+  RESP: {"code": 20004, "data": "", "msg": "模板不存在", "path": "/api/template/detailTemplate", "extra": null, "timestamp": "1774492044034", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:27:24 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate  →  200  (0.187s)
+  REQ : {"name": "CRUD_qveccu", "title": "CRUD 测试模板", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492044228", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:27:24 [WARNING] auto_test — [BUG] 已写入 bug.xlsx: testcases/test_template.py::TestTemplate::test_full_crud
+2026-03-26 10:27:24 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/template/pageTemplate  →  200  (0.181s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"name": "", "status": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993387306889217", "name": "自动化模板_vpnj", "iconUrl": "", "title": "自动化测试标题", "titleDesc": "自动化测试描述", "contentElements": "正文要求：100字以上", "status": 1, "updateTime": "2026-03-26 10:27:24", "domains": [{"id": "2036993387319472129", "createTime": "2026-03-26 10:27:24", "createUser": "2036984254247677953", "updateTime": "2026-03-26 10:27:24", "updateUser": "2036984254247677953", "templateId": "2036993387306889217", "domainCode": "TD_HSGS", "domainName": "红色故事"
+2026-03-26 10:28:12 [INFO] auto_test — 管理端 HttpClient 初始化，base_url=http://10.50.31.141:28002/gateway
+2026-03-26 10:28:12 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission  →  200  (0.118s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "", "status": "", "domainCode": "", "urgencyStatus": "", "submitStartDate": "", "submitEndDate": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492092397", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:12 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission  →  200  (0.054s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "红色", "status": "", "domainCode": "", "urgencyStatus": "", "submitStartDate": "", "submitEndDate": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492092447", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:12 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission  →  200  (0.049s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "", "status": "", "domainCode": "", "urgencyStatus": "", "submitStartDate": "2025-01-01", "submitEndDate": "2025-12-31"}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492092506", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:12 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission  →  200  (0.028s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "不存在的标题xxxyyy9999", "status": "", "domainCode": "", "urgencyStatus": "", "submitStartDate": "", "submitEndDate": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492092538", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:12 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/countAdminSubmission  →  200  (0.044s)
+  REQ : -
+  RESP: {"code": 0, "data": {"total": 0, "countAllocation": 0, "countReceive": null, "countAudit": 0, "countAuditing": 0, "countPass": 0, "countReject": 0, "countProcessing": 0, "countTransfer": null}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492092578", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:12 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/countReviewSubmission  →  200  (0.038s)
+  REQ : -
+  RESP: {"code": 0, "data": {"total": 0, "countAllocation": null, "countReceive": 0, "countAudit": 0, "countAuditing": 0, "countPass": 0, "countReject": 0, "countProcessing": null, "countTransfer": 0}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492092622", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:12 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageReviewSubmission  →  200  (0.130s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "", "status": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492092690", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:12 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAllocationSubmission  →  200  (0.034s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492092799", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:12 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/listCheckUser  →  200  (0.105s)
+  REQ : -
+  RESP: {"code": 0, "data": [{"id": "2034156690675142658", "name": "余伟达"}, {"id": "2034170831255179265", "name": "汪世杰"}, {"id": "2036777559787745281", "name": "曹端森"}, {"id": "2036974256454209538", "name": "审核人员1"}, {"id": "2036974439720128514", "name": "审核人员2"}], "msg": "ok", "path": null, "extra": null, "timestamp": "1774492092908", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:12 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/detailSubmission/999999999  →  200  (0.026s)
+  REQ : -
+  RESP: {"code": 20004, "data": "", "msg": "稿件不存在", "path": "/api/submission/detailSubmission/999999999", "extra": null, "timestamp": "1774492092936", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:12 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/submissionLog/999999999  →  200  (0.024s)
+  REQ : -
+  RESP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774492092963", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:12 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/receiveSubmission  →  200  (0.030s)
+  REQ : {"submissionId": 999999, "taskId": 999999, "assigneeId": 0, "remark": "", "status": 1}
+  RESP: {"code": 20004, "data": "", "msg": "稿件不存在", "path": "/api/submission/receiveSubmission", "extra": null, "timestamp": "1774492092997", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:12 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/dealSubmission  →  200  (0.021s)
+  REQ : {"submissionId": 999999, "taskId": 999999, "assigneeId": 0, "remark": "", "status": 1}
+  RESP: {"code": 20004, "data": "", "msg": "稿件不存在", "path": "/api/submission/dealSubmission", "extra": null, "timestamp": "1774492093023", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:12 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/transferSubmission  →  200  (0.029s)
+  REQ : {"submissionId": 999999, "taskId": 999999, "assigneeId": 0, "assigneeName": "", "assigneeRemark": "", "remark": "", "status": 1}
+  RESP: {"code": -1, "data": null, "msg": "转办处理人ID为空", "path": null, "extra": null, "timestamp": "1774492093049", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:12 [INFO] auto_test — 用户端 HttpClient 初始化，base_url=http://10.50.31.141:28003/gateway
+2026-03-26 10:28:12 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/submission/pageAdminSubmission  →  200  (0.026s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "", "status": "", "domainCode": "", "urgencyStatus": "", "submitStartDate": "", "submitEndDate": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492093084", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/pageSubmissionRepetition  →  200  (0.046s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"submissionId": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492093247", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/getSubmissionRepetition  →  200  (0.035s)
+  REQ : {"submissionId": 999999999}
+  RESP: {"code": -1, "data": null, "msg": "稿件标题和内容不能为空", "path": null, "extra": null, "timestamp": "1774492093272", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page  →  200  (0.027s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "", "station": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993363747483650", "account": "13800000001", "name": "重复注册", "station": "", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}, {"id": "2036993363613265922", "account": "15568802969", "name": "测试用户_自动化", "station": "测试单位", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}, {"id": "20369780681148456
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page  →  200  (0.095s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "测试", "station": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993363613265922", "account": "15568802969", "name": "测试用户_自动化", "station": "测试单位", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}], "total": "1", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "1"}, "msg": "ok", "path": null, "extra": null, "timestamp": "17744920933
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page  →  200  (0.030s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "zzzznotexist9999", "station": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492093448", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/update  →  200  (0.023s)
+  REQ : {"id": 9999999, "name": "非法更新测试", "station": ""}
+  RESP: {"code": -9, "data": "", "msg": "所属单位不能为空", "path": "/api/system/appUser/update", "extra": null, "timestamp": "1774492093473", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page  →  200  (0.023s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "", "station": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774492093498}
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login  →  200  (0.031s)
+  REQ : {"account": "13800000001", "password": "WrongPwd@999", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RESP: {"code": 20004, "data": "", "msg": "用户名或密码错误!", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774492093540", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login  →  200  (0.019s)
+  REQ : {"account": "10000000001", "password": "AnyPwd@123", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RESP: {"code": 20004, "data": "", "msg": "用户名或密码错误!", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774492093561", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login  →  200  (0.016s)
+  REQ : {"account": "", "password": "AnyPwd@123", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RESP: {"code": -9, "data": "", "msg": "个数必须在1和50之间", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774492093577", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/registerAppUser  →  200  (0.019s)
+  REQ : {"account": "13974577700", "password": "#K!z5j5qN6", "name": "测试用户_自动化", "station": "测试单位"}
+  RESP: {"code": 0, "data": {"id": "2036993596606853122", "createTime": "2026-03-26 10:28:13", "createUser": "2036978068114845697", "updateTime": "2026-03-26 10:28:13", "updateUser": "2036978068114845697", "account": "13974577700", "name": "测试用户_自动化", "idCard": null, "org": null, "station": "测试单位", "email": null, "mobile": null, "sex": null, "status": true, "firstLoginFlag": null, "avatar": null, "nation": null, "education": null, "positionStatus": null, "roles": null, "workDescribe": null, "passwordErr
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/registerAppUser  →  200  (0.019s)
+  REQ : {"account": "13800000001", "password": "0a2$mHId9$", "name": "重复注册", "station": ""}
+  RESP: {"code": 20004, "data": "", "msg": "13800000001 账号已存在!", "path": "/api/app/appUser/registerAppUser", "extra": null, "timestamp": "1774492093627", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:13 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode  →  200  (0.016s)
+  REQ : -
+  RESP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774492093646", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:13 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode  →  200  (0.014s)
+  REQ : -
+  RESP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774492093664", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile  →  200  (0.021s)
+  REQ : -
+  RESP: {"code": 10001, "data": "", "msg": "请求中必须至少包含一个有效文件", "path": "/api/pub/uploadFile", "extra": null, "timestamp": "1774492093686", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadImage  →  200  (0.020s)
+  REQ : -
+  RESP: {"code": 10001, "data": "", "msg": "请求中必须至少包含一个有效文件", "path": "/api/pub/uploadImage", "extra": null, "timestamp": "1774492093712", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:13 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/pub/remote/getFileUrl  →  200  (0.114s)
+  REQ : -
+  RESP: {"code": 0, "data": "http://10.50.31.155:9000/corpus//test/path/file.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20260326%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260326T022813Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c81f34018d1659301080a639ee337b739bdaa7797f6a0d79692f0c69e15c0762", "msg": "ok", "path": null, "extra": null, "timestamp": "1774492093831", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkFileMd5  →  200  (0.105s)
+  REQ : -
+  RESP: {"code": "101", "data": null, "msg": "该文件没有上传过。"}
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkChunk  →  200  (0.030s)
+  REQ : -
+  RESP: {"code": "-1", "data": false, "msg": "操作失败"}
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkFileMd5  →  200  (0.074s)
+  REQ : -
+  RESP: {"code": "101", "data": null, "msg": "该文件没有上传过。"}
+2026-03-26 10:28:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkChunk  →  200  (0.035s)
+  REQ : -
+  RESP: {"code": "-1", "data": false, "msg": "操作失败"}
+2026-03-26 10:28:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/fileUpload  →  200  (0.140s)
+  REQ : -
+  RESP: {"code": -5, "data": "", "msg": "系统繁忙~请稍候再试~", "path": "/api/pub/uploadFile/fileUpload", "extra": null, "timestamp": "1774492094228", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/mergeChunks  →  200  (0.067s)
+  REQ : -
+  RESP: {"code": 20004, "data": "", "msg": "merge失败！", "path": "/api/pub/uploadFile/mergeChunks", "extra": null, "timestamp": "1774492094284", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:14 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/submission/listTemplate  →  200  (0.033s)
+  REQ : -
+  RESP: {"code": 0, "data": [{"id": "2036984755353759745", "name": "test_01", "iconUrl": "/dbapp/static/file/260320/1774000095474/template-1.png", "title": "我的模板标题", "titleDesc": "这是一个模板", "contentElements": "我的内容故事", "status": 1, "updateTime": null, "domains": [{"id": "2036984755399897090", "createTime": "2026-03-26 09:53:06", "createUser": "2036984254247677953", "updateTime": "2026-03-26 09:53:06", "updateUser": "2036984254247677953", "templateId": "2036984755353759745", "domainCode": "TD_HSGS", "doma
+2026-03-26 10:28:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.420s)
+  REQ : {"title": "草稿_rmkg", "contentElements": "草稿内容，至少50字草稿内容，至少50字草稿内容，至少50字", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492094757", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.092s)
+  REQ : {"title": "", "contentElements": "内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容", "domainCode": "", "templateId": null, "anonymous": 0, "submitType": 1, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": -9, "data": "", "msg": "稿件标题不能为空", "path": "/api/app/submission/saveSubmission", "extra": null, "timestamp": "1774492094787", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.019s)
+  REQ : {"title": "有标题无内容", "contentElements": "", "domainCode": "", "templateId": null, "anonymous": 0, "submitType": 1, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": -9, "data": "", "msg": "稿件内容要素不能为空", "path": "/api/app/submission/saveSubmission", "extra": null, "timestamp": "1774492094875", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.123s)
+  REQ : {"title": "自动化投稿_dmuizl", "contentElements": "自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492094921", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:14 [WARNING] auto_test — [BUG] 已写入 bug.xlsx: testcases/test_submission.py::TestSubmission::test_full_submission_flow
+2026-03-26 10:28:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission  →  200  (0.041s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": "", "status": "", "submitType": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492095065", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission  →  200  (0.030s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": "故事", "status": "", "submitType": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492095099", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/countMyselfSubmission  →  200  (0.024s)
+  REQ : -
+  RESP: {"code": 0, "data": {"countAll": 0, "countUnderReview": 0, "countPassed": 0, "countRejected": 0}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492095123", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission  →  200  (0.035s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": "草稿", "status": "", "submitType": 0}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993601346416641", "title": "草稿_rmkg", "domainCode": "TD_HSGS", "domainName": "红色故事", "submitTime": "2026-03-26 10:19:33", "status": null, "repetitionRate": null, "urgencyStatus": "0", "urgeTime": null}], "total": "1", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "1"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492095162", "isSu
+2026-03-26 10:28:15 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/submission/submissionLog/999999999  →  200  (0.119s)
+  REQ : -
+  RESP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774492095263", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:15 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.064s)
+  REQ : {"title": "匿名投稿_wvbk", "contentElements": "匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 1, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492095347", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:15 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission  →  200  (0.020s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": "", "status": "", "submitType": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774492095378}
+2026-03-26 10:28:15 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate  →  200  (0.031s)
+  REQ : {"name": "自动化模板_tgxf", "title": "自动化测试标题", "titleDesc": "自动化测试描述", "contentElements": "正文要求：100字以上", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492095416", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:15 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate  →  200  (0.142s)
+  REQ : {"name": "", "title": "标题", "titleDesc": "", "contentElements": "", "domain": [], "iconUrl": "", "status": 1}
+  RESP: {"code": -9, "data": "", "msg": "模板名称不能为空", "path": "/api/template/saveTemplate", "extra": null, "timestamp": "1774492095563", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:15 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate  →  200  (0.029s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"name": "", "status": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993604181766146", "name": "自动化模板_tgxf", "iconUrl": "", "title": "自动化测试标题", "titleDesc": "自动化测试描述", "contentElements": "正文要求：100字以上", "status": 1, "updateTime": "2026-03-26 10:28:15", "domains": [{"id": "2036993604194349058", "createTime": "2026-03-26 10:28:15", "createUser": "2036984254247677953", "updateTime": "2026-03-26 10:28:15", "updateUser": "2036984254247677953", "templateId": "2036993604181766146", "domainCode": "TD_HSGS", "domainName": "红色故事"
+2026-03-26 10:28:15 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate  →  200  (0.030s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"name": "自动化", "status": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993604181766146", "name": "自动化模板_tgxf", "iconUrl": "", "title": "自动化测试标题", "titleDesc": "自动化测试描述", "contentElements": "正文要求：100字以上", "status": 1, "updateTime": "2026-03-26 10:28:15", "domains": [{"id": "2036993604194349058", "createTime": "2026-03-26 10:28:15", "createUser": "2036984254247677953", "updateTime": "2026-03-26 10:28:15", "updateUser": "2036984254247677953", "templateId": "2036993604181766146", "domainCode": "TD_HSGS", "domainName": "红色故事"
+2026-03-26 10:28:15 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate  →  200  (0.023s)
+  REQ : -
+  RESP: {"code": 20004, "data": "", "msg": "模板不存在", "path": "/api/template/detailTemplate", "extra": null, "timestamp": "1774492095651", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:15 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate  →  200  (0.038s)
+  REQ : {"name": "CRUD_doiypn", "title": "CRUD 测试模板", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492095696", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:15 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate  →  200  (0.038s)
+  REQ : {"current": 1, "size": 20, "sort": "", "order": "descending", "model": {"name": "CRUD_doiypn", "status": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993605339394050", "name": "CRUD_doiypn", "iconUrl": "", "title": "CRUD 测试模板", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-26 10:28:16", "domains": [{"id": "2036993605377142786", "createTime": "2026-03-26 10:28:16", "createUser": "2036984254247677953", "updateTime": "2026-03-26 10:28:16", "updateUser": "2036984254247677953", "templateId": "2036993605339394050", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}], "total": 
+2026-03-26 10:28:15 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate  →  200  (0.026s)
+  REQ : -
+  RESP: {"code": 0, "data": {"id": "2036993605339394050", "name": "CRUD_doiypn", "iconUrl": "", "title": "CRUD 测试模板", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-26 10:28:16", "domains": [{"id": "2036993605377142786", "createTime": "2026-03-26 10:28:16", "createUser": "2036984254247677953", "updateTime": "2026-03-26 10:28:16", "updateUser": "2036984254247677953", "templateId": "2036993605339394050", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}, "msg": "ok", "path": nu
+2026-03-26 10:28:15 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/updateTemplate  →  200  (0.274s)
+  REQ : {"id": "2036993605339394050", "name": "CRUD_doiypn_updated", "title": "已更新标题", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492095831", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:15 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/disableTemplate  →  200  (0.042s)
+  REQ : {"id": "2036993605339394050", "name": "CRUD_doiypn_updated", "domain": ["TD_HSGS"], "status": 0}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492096067", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:15 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/deleteTemplate  →  200  (0.029s)
+  REQ : {"id": "2036993605339394050", "name": "CRUD_doiypn_updated", "domain": ["TD_HSGS"]}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492096107", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:15 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/template/pageTemplate  →  200  (0.033s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"name": "", "status": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993604181766146", "name": "自动化模板_tgxf", "iconUrl": "", "title": "自动化测试标题", "titleDesc": "自动化测试描述", "contentElements": "正文要求：100字以上", "status": 1, "updateTime": "2026-03-26 10:28:15", "domains": [{"id": "2036993604194349058", "createTime": "2026-03-26 10:28:15", "createUser": "2036984254247677953", "updateTime": "2026-03-26 10:28:15", "updateUser": "2036984254247677953", "templateId": "2036993604181766146", "domainCode": "TD_HSGS", "domainName": "红色故事"
+2026-03-26 10:28:36 [INFO] auto_test — 管理端 HttpClient 初始化，base_url=http://10.50.31.141:28002/gateway
+2026-03-26 10:28:36 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission  →  200  (0.154s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "", "status": "", "domainCode": "", "urgencyStatus": "", "submitStartDate": "", "submitEndDate": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492117041", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:36 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission  →  200  (0.035s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "红色", "status": "", "domainCode": "", "urgencyStatus": "", "submitStartDate": "", "submitEndDate": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492117091", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:36 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission  →  200  (0.028s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "", "status": "", "domainCode": "", "urgencyStatus": "", "submitStartDate": "2025-01-01", "submitEndDate": "2025-12-31"}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492117128", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:36 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission  →  200  (0.052s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "不存在的标题xxxyyy9999", "status": "", "domainCode": "", "urgencyStatus": "", "submitStartDate": "", "submitEndDate": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492117183", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:37 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/countAdminSubmission  →  200  (0.021s)
+  REQ : -
+  RESP: {"code": 0, "data": {"total": 0, "countAllocation": 0, "countReceive": null, "countAudit": 0, "countAuditing": 0, "countPass": 0, "countReject": 0, "countProcessing": 0, "countTransfer": null}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492117210", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:37 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/countReviewSubmission  →  200  (0.029s)
+  REQ : -
+  RESP: {"code": 0, "data": {"total": 0, "countAllocation": null, "countReceive": 0, "countAudit": 0, "countAuditing": 0, "countPass": 0, "countReject": 0, "countProcessing": null, "countTransfer": 0}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492117239", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageReviewSubmission  →  200  (0.024s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "", "status": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492117268", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAllocationSubmission  →  200  (0.019s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492117294", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/listCheckUser  →  200  (0.038s)
+  REQ : -
+  RESP: {"code": 0, "data": [{"id": "2034156690675142658", "name": "余伟达"}, {"id": "2034170831255179265", "name": "汪世杰"}, {"id": "2036777559787745281", "name": "曹端森"}, {"id": "2036974256454209538", "name": "审核人员1"}, {"id": "2036974439720128514", "name": "审核人员2"}], "msg": "ok", "path": null, "extra": null, "timestamp": "1774492117318", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:37 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/detailSubmission/999999999  →  200  (0.025s)
+  REQ : -
+  RESP: {"code": 20004, "data": "", "msg": "稿件不存在", "path": "/api/submission/detailSubmission/999999999", "extra": null, "timestamp": "1774492117358", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:37 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/submissionLog/999999999  →  200  (0.023s)
+  REQ : -
+  RESP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774492117391", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/receiveSubmission  →  200  (0.028s)
+  REQ : {"submissionId": 999999, "taskId": 999999, "assigneeId": 0, "remark": "", "status": 1}
+  RESP: {"code": 20004, "data": "", "msg": "稿件不存在", "path": "/api/submission/receiveSubmission", "extra": null, "timestamp": "1774492117424", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/dealSubmission  →  200  (0.108s)
+  REQ : {"submissionId": 999999, "taskId": 999999, "assigneeId": 0, "remark": "", "status": 1}
+  RESP: {"code": 20004, "data": "", "msg": "稿件不存在", "path": "/api/submission/dealSubmission", "extra": null, "timestamp": "1774492117446", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/transferSubmission  →  200  (0.059s)
+  REQ : {"submissionId": 999999, "taskId": 999999, "assigneeId": 0, "assigneeName": "", "assigneeRemark": "", "remark": "", "status": 1}
+  RESP: {"code": -1, "data": null, "msg": "转办处理人ID为空", "path": null, "extra": null, "timestamp": "1774492117591", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:37 [INFO] auto_test — 用户端 HttpClient 初始化，base_url=http://10.50.31.141:28003/gateway
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/submission/pageAdminSubmission  →  200  (0.035s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": "", "status": "", "domainCode": "", "urgencyStatus": "", "submitStartDate": "", "submitEndDate": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492117631", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/pageSubmissionRepetition  →  200  (0.025s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"submissionId": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492117752", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/getSubmissionRepetition  →  200  (0.018s)
+  REQ : {"submissionId": 999999999}
+  RESP: {"code": -1, "data": null, "msg": "稿件标题和内容不能为空", "path": null, "extra": null, "timestamp": "1774492117773", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page  →  200  (0.030s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "", "station": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993596606853122", "account": "13974577700", "name": "测试用户_自动化", "station": "测试单位", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}, {"id": "2036993363747483650", "account": "13800000001", "name": "重复注册", "station": "", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}, {"id": "20369933636132659
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page  →  200  (0.025s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "测试", "station": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993596606853122", "account": "13974577700", "name": "测试用户_自动化", "station": "测试单位", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}, {"id": "2036993363613265922", "account": "15568802969", "name": "测试用户_自动化", "station": "测试单位", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}], "total": "2", "s
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page  →  200  (0.131s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "zzzznotexist9999", "station": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492117970", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/update  →  200  (0.101s)
+  REQ : {"id": 9999999, "name": "非法更新测试", "station": ""}
+  RESP: {"code": -9, "data": "", "msg": "所属单位不能为空", "path": "/api/system/appUser/update", "extra": null, "timestamp": "1774492118076", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page  →  200  (0.017s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "", "station": ""}, "map": {}, "timeRange": null}
+  RESP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774492118102}
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login  →  200  (0.026s)
+  REQ : {"account": "13800000001", "password": "WrongPwd@999", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RESP: {"code": 20004, "data": "", "msg": "用户名或密码错误!", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774492118132", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login  →  200  (0.018s)
+  REQ : {"account": "10000000001", "password": "AnyPwd@123", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RESP: {"code": 20004, "data": "", "msg": "用户名或密码错误!", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774492118157", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:37 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login  →  200  (0.014s)
+  REQ : {"account": "", "password": "AnyPwd@123", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RESP: {"code": -9, "data": "", "msg": "个数必须在1和50之间", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774492118173", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:38 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/registerAppUser  →  200  (0.025s)
+  REQ : {"account": "18351626738", "password": "!1gR9Gk!1e", "name": "测试用户_自动化", "station": "测试单位"}
+  RESP: {"code": 0, "data": {"id": "2036993699782537217", "createTime": "2026-03-26 10:28:38", "createUser": "2036978068114845697", "updateTime": "2026-03-26 10:28:38", "updateUser": "2036978068114845697", "account": "18351626738", "name": "测试用户_自动化", "idCard": null, "org": null, "station": "测试单位", "email": null, "mobile": null, "sex": null, "status": true, "firstLoginFlag": null, "avatar": null, "nation": null, "education": null, "positionStatus": null, "roles": null, "workDescribe": null, "passwordErr
+2026-03-26 10:28:38 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/registerAppUser  →  200  (0.017s)
+  REQ : {"account": "13800000001", "password": "rE089Am#$f", "name": "重复注册", "station": ""}
+  RESP: {"code": 20004, "data": "", "msg": "13800000001 账号已存在!", "path": "/api/app/appUser/registerAppUser", "extra": null, "timestamp": "1774492118222", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:38 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode  →  200  (0.012s)
+  REQ : -
+  RESP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774492118241", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:38 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode  →  200  (0.025s)
+  REQ : -
+  RESP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774492118267", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:38 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile  →  200  (0.119s)
+  REQ : -
+  RESP: {"code": 10001, "data": "", "msg": "请求中必须至少包含一个有效文件", "path": "/api/pub/uploadFile", "extra": null, "timestamp": "1774492118382", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:38 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadImage  →  200  (0.080s)
+  REQ : -
+  RESP: {"code": 10001, "data": "", "msg": "请求中必须至少包含一个有效文件", "path": "/api/pub/uploadImage", "extra": null, "timestamp": "1774492118462", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:38 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/pub/remote/getFileUrl  →  200  (0.118s)
+  REQ : -
+  RESP: {"code": 0, "data": "http://10.50.31.155:9000/corpus//test/path/file.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20260326%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260326T022838Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d556dc1be6da26431c490429878ae9b3cc335fe4e9a5c6512d4159560c79cd50", "msg": "ok", "path": null, "extra": null, "timestamp": "1774492118569", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:38 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkFileMd5  →  200  (0.114s)
+  REQ : -
+  RESP: {"code": "101", "data": null, "msg": "该文件没有上传过。"}
+2026-03-26 10:28:38 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkChunk  →  200  (0.059s)
+  REQ : -
+  RESP: {"code": "-1", "data": false, "msg": "操作失败"}
+2026-03-26 10:28:38 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkFileMd5  →  200  (0.196s)
+  REQ : -
+  RESP: {"code": "101", "data": null, "msg": "该文件没有上传过。"}
+2026-03-26 10:28:38 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkChunk  →  200  (0.135s)
+  REQ : -
+  RESP: {"code": "-1", "data": false, "msg": "操作失败"}
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/fileUpload  →  200  (0.163s)
+  REQ : -
+  RESP: {"code": -5, "data": "", "msg": "系统繁忙~请稍候再试~", "path": "/api/pub/uploadFile/fileUpload", "extra": null, "timestamp": "1774492119278", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/mergeChunks  →  200  (0.066s)
+  REQ : -
+  RESP: {"code": 20004, "data": "", "msg": "merge失败！", "path": "/api/pub/uploadFile/mergeChunks", "extra": null, "timestamp": "1774492119331", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:39 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/submission/listTemplate  →  200  (0.028s)
+  REQ : -
+  RESP: {"code": 0, "data": [{"id": "2036984755353759745", "name": "test_01", "iconUrl": "/dbapp/static/file/260320/1774000095474/template-1.png", "title": "我的模板标题", "titleDesc": "这是一个模板", "contentElements": "我的内容故事", "status": 1, "updateTime": null, "domains": [{"id": "2036984755399897090", "createTime": "2026-03-26 09:53:06", "createUser": "2036984254247677953", "updateTime": "2026-03-26 09:53:06", "updateUser": "2036984254247677953", "templateId": "2036984755353759745", "domainCode": "TD_HSGS", "doma
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.024s)
+  REQ : {"title": "草稿_uybr", "contentElements": "草稿内容，至少50字草稿内容，至少50字草稿内容，至少50字", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492119405", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.025s)
+  REQ : {"title": "", "contentElements": "内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容", "domainCode": "", "templateId": null, "anonymous": 0, "submitType": 1, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": -9, "data": "", "msg": "稿件标题不能为空", "path": "/api/app/submission/saveSubmission", "extra": null, "timestamp": "1774492119428", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.020s)
+  REQ : {"title": "有标题无内容", "contentElements": "", "domainCode": "", "templateId": null, "anonymous": 0, "submitType": 1, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": -9, "data": "", "msg": "稿件内容要素不能为空", "path": "/api/app/submission/saveSubmission", "extra": null, "timestamp": "1774492119458", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.031s)
+  REQ : {"title": "自动化投稿_jwljti", "contentElements": "自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492119486", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission  →  200  (0.033s)
+  REQ : {"current": 1, "size": 5, "sort": "", "order": "descending", "model": {"title": "", "status": "", "submitType": 0}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993601346416641", "title": "草稿_rmkg", "domainCode": "TD_HSGS", "domainName": "红色故事", "submitTime": "2026-03-26 10:19:33", "status": null, "repetitionRate": null, "urgencyStatus": "0", "urgeTime": null}, {"id": "2036993602118168578", "title": "自动化投稿_dmuizl", "domainCode": "TD_HSGS", "domainName": "红色故事", "submitTime": "2026-03-26 10:19:33", "status": null, "repetitionRate": null, "urgencyStatus": "0", "urgeTime": null}, {"id": "2036993603896553473", "t
+2026-03-26 10:28:39 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/submission/detailSubmission/2036993601346416641  →  200  (0.110s)
+  REQ : -
+  RESP: {"code": 0, "data": {"id": "2036993601346416641", "createTime": "2026-03-26 10:28:15", "createUser": "2036978068114845697", "updateTime": "2026-03-26 10:28:15", "updateUser": "2036978068114845697", "templateId": null, "domainCode": "TD_HSGS", "submissionNo": "SN-2036993601338028032", "title": "草稿_rmkg", "contentElements": "草稿内容，至少50字草稿内容，至少50字草稿内容，至少50字", "citationText": "", "remark": "", "anonymous": 0, "submitterId": "2036978068114845697", "submitType": 0, "status": null, "currentTaskId": null
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/countMyselfSubmission  →  200  (0.020s)
+  REQ : -
+  RESP: {"code": 0, "data": {"countAll": 0, "countUnderReview": 0, "countPassed": 0, "countRejected": 0}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492119654", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/deleteSubmission  →  200  (0.028s)
+  REQ : {"id": "2036993601346416641"}
+  RESP: {"code": -5, "data": "", "msg": "系统繁忙~请稍候再试~", "path": "/api/app/submission/deleteSubmission", "extra": null, "timestamp": "1774492119675", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission  →  200  (0.030s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": "", "status": "", "submitType": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492119706", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission  →  200  (0.028s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": "故事", "status": "", "submitType": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492119751", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/countMyselfSubmission  →  200  (0.019s)
+  REQ : -
+  RESP: {"code": 0, "data": {"countAll": 0, "countUnderReview": 0, "countPassed": 0, "countRejected": 0}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492119774", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission  →  200  (0.029s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": "草稿", "status": "", "submitType": 0}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993601346416641", "title": "草稿_rmkg", "domainCode": "TD_HSGS", "domainName": "红色故事", "submitTime": "2026-03-26 10:19:33", "status": null, "repetitionRate": null, "urgencyStatus": "0", "urgeTime": null}, {"id": "2036993704811507713", "title": "草稿_uybr", "domainCode": "TD_HSGS", "domainName": "红色故事", "submitTime": "2026-03-26 10:19:58", "status": null, "repetitionRate": null, "urgencyStatus": "0", "urgeTime": null}], "total": "2", "size": "10", "current
+2026-03-26 10:28:39 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/submission/submissionLog/999999999  →  200  (0.021s)
+  REQ : -
+  RESP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774492119831", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.037s)
+  REQ : {"title": "匿名投稿_vzum", "contentElements": "匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容匿名正文内容", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 1, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492119876", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission  →  200  (0.014s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": "", "status": "", "submitType": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774492119899}
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate  →  200  (0.126s)
+  REQ : {"name": "自动化模板_zvoe", "title": "自动化测试标题", "titleDesc": "自动化测试描述", "contentElements": "正文要求：100字以上", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492119946", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate  →  200  (0.033s)
+  REQ : {"name": "", "title": "标题", "titleDesc": "", "contentElements": "", "domain": [], "iconUrl": "", "status": 1}
+  RESP: {"code": -9, "data": "", "msg": "模板名称不能为空", "path": "/api/template/saveTemplate", "extra": null, "timestamp": "1774492120068", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:39 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate  →  200  (0.121s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"name": "", "status": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993707034488833", "name": "自动化模板_zvoe", "iconUrl": "", "title": "自动化测试标题", "titleDesc": "自动化测试描述", "contentElements": "正文要求：100字以上", "status": 1, "updateTime": "2026-03-26 10:28:40", "domains": [{"id": "2036993707047071746", "createTime": "2026-03-26 10:28:40", "createUser": "2036984254247677953", "updateTime": "2026-03-26 10:28:40", "updateUser": "2036984254247677953", "templateId": "2036993707034488833", "domainCode": "TD_HSGS", "domainName": "红色故事"
+2026-03-26 10:28:40 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate  →  200  (0.034s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"name": "自动化", "status": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993707034488833", "name": "自动化模板_zvoe", "iconUrl": "", "title": "自动化测试标题", "titleDesc": "自动化测试描述", "contentElements": "正文要求：100字以上", "status": 1, "updateTime": "2026-03-26 10:28:40", "domains": [{"id": "2036993707047071746", "createTime": "2026-03-26 10:28:40", "createUser": "2036984254247677953", "updateTime": "2026-03-26 10:28:40", "updateUser": "2036984254247677953", "templateId": "2036993707034488833", "domainCode": "TD_HSGS", "domainName": "红色故事"
+2026-03-26 10:28:40 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate  →  200  (0.032s)
+  REQ : -
+  RESP: {"code": 20004, "data": "", "msg": "模板不存在", "path": "/api/template/detailTemplate", "extra": null, "timestamp": "1774492120275", "isSuccess": false, "success": false, "isFail": true}
+2026-03-26 10:28:40 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate  →  200  (0.055s)
+  REQ : {"name": "CRUD_sfyuwa", "title": "CRUD 测试模板", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492120332", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:40 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate  →  200  (0.030s)
+  REQ : {"current": 1, "size": 20, "sort": "", "order": "descending", "model": {"name": "CRUD_sfyuwa", "status": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993708590575618", "name": "CRUD_sfyuwa", "iconUrl": "", "title": "CRUD 测试模板", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-26 10:28:40", "domains": [{"id": "2036993708603158529", "createTime": "2026-03-26 10:28:40", "createUser": "2036984254247677953", "updateTime": "2026-03-26 10:28:40", "updateUser": "2036984254247677953", "templateId": "2036993708590575618", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}], "total": 
+2026-03-26 10:28:40 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate  →  200  (0.028s)
+  REQ : -
+  RESP: {"code": 0, "data": {"id": "2036993708590575618", "name": "CRUD_sfyuwa", "iconUrl": "", "title": "CRUD 测试模板", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-26 10:28:40", "domains": [{"id": "2036993708603158529", "createTime": "2026-03-26 10:28:40", "createUser": "2036984254247677953", "updateTime": "2026-03-26 10:28:40", "updateUser": "2036984254247677953", "templateId": "2036993708590575618", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}, "msg": "ok", "path": nu
+2026-03-26 10:28:40 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/updateTemplate  →  200  (0.027s)
+  REQ : {"id": "2036993708590575618", "name": "CRUD_sfyuwa_updated", "title": "已更新标题", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492120422", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:40 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/disableTemplate  →  200  (0.020s)
+  REQ : {"id": "2036993708590575618", "name": "CRUD_sfyuwa_updated", "domain": ["TD_HSGS"], "status": 0}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492120444", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:40 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/deleteTemplate  →  200  (0.021s)
+  REQ : {"id": "2036993708590575618", "name": "CRUD_sfyuwa_updated", "domain": ["TD_HSGS"]}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492120464", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:28:40 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/template/pageTemplate  →  200  (0.043s)
+  REQ : {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"name": "", "status": null}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993707034488833", "name": "自动化模板_zvoe", "iconUrl": "", "title": "自动化测试标题", "titleDesc": "自动化测试描述", "contentElements": "正文要求：100字以上", "status": 1, "updateTime": "2026-03-26 10:28:40", "domains": [{"id": "2036993707047071746", "createTime": "2026-03-26 10:28:40", "createUser": "2036984254247677953", "updateTime": "2026-03-26 10:28:40", "updateUser": "2036984254247677953", "templateId": "2036993707034488833", "domainCode": "TD_HSGS", "domainName": "红色故事"
+2026-03-26 10:41:55 [INFO] auto_test — 用户端 HttpClient 初始化，base_url=http://10.50.31.141:28003/gateway
+2026-03-26 10:41:55 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode  →  200  (0.039s)
+  REQ : -
+  RESP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774492916004", "isSuccess": true, "success": true, "isFail": false}
+2026-03-26 10:41:55 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode  →  200  (0.015s)
+  REQ : -
+  RESP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774492916025", "isSuccess": true, "success": true, "isFail": false}
+2026-03-27 10:06:06 [INFO] auto_test — admin base_url=http://10.50.31.141:28002/gateway
+2026-03-27 10:06:06 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission → 200 (0.040s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577166513}
+2026-03-27 10:06:06 [WARNING] auto_test — [BUG] testcases/test_admin_submission.py::TestAdminSubmission::test_page_admin
+2026-03-27 10:06:06 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageReviewSubmission → 200 (0.018s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577166670}
+2026-03-27 10:06:06 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/countAdminSubmission → 200 (0.016s)
+  REQ: -
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577166689}
+2026-03-27 10:06:06 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/countReviewSubmission → 200 (0.013s)
+  REQ: -
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577166705}
+2026-03-27 10:06:06 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/detailSubmission/999999999 → 200 (0.090s)
+  REQ: -
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577166801}
+2026-03-27 10:06:06 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAllocationSubmission → 200 (0.020s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577166826}
+2026-03-27 10:06:06 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/listCheckUser → 200 (0.008s)
+  REQ: -
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577166836}
+2026-03-27 10:06:06 [INFO] auto_test — user base_url=http://10.50.31.141:28003/gateway
+2026-03-27 10:06:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/submission/pageAdminSubmission → 200 (1.036s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577167879}
+2026-03-27 10:06:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/pageSubmissionRepetition → 200 (0.016s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577167900}
+2026-03-27 10:06:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/getSubmissionRepetition → 200 (0.013s)
+  REQ: {"submissionId": 999999999}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577167917}
+2026-03-27 10:06:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page → 200 (0.009s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "", "station": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577167931}
+2026-03-27 10:06:07 [WARNING] auto_test — [BUG] testcases/test_admin_user.py::TestAdminUser::test_page
+2026-03-27 10:06:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page → 200 (0.038s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "", "station": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577168013}
+2026-03-27 10:06:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login → 200 (0.028s)
+  REQ: {"account": "13800000001", "password": "WrongPwd@999", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RSP: {"code": 20004, "data": "", "msg": "用户名或密码错误!", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774577168050", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:06:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login → 200 (0.031s)
+  REQ: {"account": "10000000001", "password": "Any@123", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RSP: {"code": 20004, "data": "", "msg": "用户名或密码错误!", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774577168087", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:06:08 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login → 200 (0.073s)
+  REQ: {"account": "", "password": "Any@123", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RSP: {"code": -9, "data": "", "msg": "个数必须在1和50之间", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774577168168", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:06:08 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/registerAppUser → 200 (0.057s)
+  REQ: {"account": "13855377091", "password": "@HQ05rbf$1", "name": "auto", "station": ""}
+  RSP: {"code": 0, "data": {"id": "2037350425393467393", "createTime": "2026-03-27 10:06:08", "createUser": "2036978068114845697", "updateTime": "2026-03-27 10:06:08", "updateUser": "2036978068114845697", "account": "13855377091", "name": "auto", "idCard": null, "org": null, "station": "", "email": null, "mobile": null, "sex": null, "status": true, "firstLoginFlag": null, "avatar": null, "nation": null, "education": null, "positionStatus": null, "roles": null, "workDescribe": null, "passwordErrorLastTi
+2026-03-27 10:06:08 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode → 200 (0.024s)
+  REQ: -
+  RSP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774577168252", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:06:08 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode → 200 (0.030s)
+  REQ: -
+  RSP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774577168290", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:06:08 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile → 200 (0.090s)
+  REQ: -
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577168378}
+2026-03-27 10:06:08 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkFileMd5 → 200 (0.015s)
+  REQ: -
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577168404}
+2026-03-27 10:06:08 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/submission/listTemplate → 200 (0.013s)
+  REQ: -
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577168420}
+2026-03-27 10:06:08 [WARNING] auto_test — [BUG] testcases/test_submission.py::TestSubmission::test_list_template
+2026-03-27 10:06:08 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission → 200 (0.021s)
+  REQ: {"title": "草稿_rfpf", "contentElements": "正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577168469}
+2026-03-27 10:06:08 [WARNING] auto_test — [BUG] testcases/test_submission.py::TestSubmission::test_save_draft
+2026-03-27 10:06:08 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission → 200 (0.019s)
+  REQ: {"title": "", "contentElements": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577168519}
+2026-03-27 10:06:08 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission → 200 (0.017s)
+  REQ: {"title": "flow_bcsvve", "contentElements": "自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577168543}
+2026-03-27 10:06:08 [WARNING] auto_test — [BUG] testcases/test_submission.py::TestSubmission::test_flow
+2026-03-27 10:06:08 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission → 200 (0.020s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577168592}
+2026-03-27 10:06:08 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate → 200 (0.014s)
+  REQ: {"name": "auto_gfbs", "title": "标题", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577168608}
+2026-03-27 10:06:08 [WARNING] auto_test — [BUG] testcases/test_template.py::TestTemplate::test_save
+2026-03-27 10:06:08 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate → 200 (0.237s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"name": "", "status": null}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577168802}
+2026-03-27 10:06:08 [WARNING] auto_test — [BUG] testcases/test_template.py::TestTemplate::test_page
+2026-03-27 10:06:08 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate → 200 (0.016s)
+  REQ: -
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577168957}
+2026-03-27 10:06:08 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate → 200 (0.014s)
+  REQ: {"name": "crud_utxgvv", "title": "CRUD", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577168978}
+2026-03-27 10:06:08 [WARNING] auto_test — [BUG] testcases/test_template.py::TestTemplate::test_full_crud
+2026-03-27 10:10:06 [INFO] auto_test — admin base_url=http://10.50.31.141:28002/gateway
+2026-03-27 10:10:06 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission → 200 (0.065s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"submissionId": "2036993602118168578", "currentTaskId": "2037138257490550786", "templateId": "2036993387306889217", "domainCode": "TD_HSGS", "domainName": "红色故事", "submissionNo": "SN-2036993602118168576", "title": "这个技能集不仅涵盖了从需求分析到自动化测试的具体步骤，还强调了持续学习和适应新技术的重要性。希望这能", "contentElements": "当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。", "citationText": "", "remark": "", "
+2026-03-27 10:10:06 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageReviewSubmission → 200 (0.031s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"submissionId": "2037128152221032449", "currentTaskId": "2037347426470301698", "templateId": null, "domainCode": "TD_HSGS", "domainName": "红色故事", "submissionNo": "SN-2037128152225226752", "title": "国月", "contentElements": null, "citationText": null, "remark": null, "anonymous": null, "submitterId": "2036978068114845697", "submitter": "大d", "currentReviewer": null, "status": 2, "statusName": "待接收", "businessFlag": null, "submitTime": "2026-03-26 19:14:12", "urgen
+2026-03-27 10:10:06 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/countAdminSubmission → 200 (0.104s)
+  REQ: -
+  RSP: {"code": 0, "data": {"total": 8, "countAllocation": 0, "countReceive": null, "countAudit": 2, "countAuditing": 2, "countPass": 2, "countReject": 0, "countProcessing": 2, "countTransfer": null}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577406751", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:10:06 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/countReviewSubmission → 200 (0.190s)
+  REQ: -
+  RSP: {"code": 0, "data": {"total": 2, "countAllocation": null, "countReceive": 1, "countAudit": 0, "countAuditing": 1, "countPass": 0, "countReject": 0, "countProcessing": null, "countTransfer": 0}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577406893", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:10:07 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/detailSubmission/999999999 → 200 (0.181s)
+  REQ: -
+  RSP: {"code": 20004, "data": "", "msg": "稿件不存在", "path": "/api/submission/detailSubmission/999999999", "extra": null, "timestamp": "1774577407184", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:10:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAllocationSubmission → 200 (0.028s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577407227", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:10:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/listCheckUser → 200 (0.033s)
+  REQ: -
+  RSP: {"code": 0, "data": [{"id": "2034156690675142658", "name": "余伟达"}, {"id": "2034170831255179265", "name": "汪世杰"}, {"id": "2036777559787745281", "name": "曹端森"}, {"id": "2036974256454209538", "name": "审核人员1"}, {"id": "2036974439720128514", "name": "审核人员2"}, {"id": "2036984254247677953", "name": "gxx"}, {"id": "2037004577480224769", "name": "gxx审核1"}, {"id": "2037042811966959617", "name": "gxx_02"}], "msg": "ok", "path": null, "extra": null, "timestamp": "1774577407266", "success": true, "isSuccess"
+2026-03-27 10:10:07 [INFO] auto_test — user base_url=http://10.50.31.141:28003/gateway
+2026-03-27 10:10:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/submission/pageAdminSubmission → 200 (0.076s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"submissionId": "2036993602118168578", "currentTaskId": "2037138257490550786", "templateId": "2036993387306889217", "domainCode": "TD_HSGS", "domainName": "红色故事", "submissionNo": "SN-2036993602118168576", "title": "这个技能集不仅涵盖了从需求分析到自动化测试的具体步骤，还强调了持续学习和适应新技术的重要性。希望这能", "contentElements": "当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。", "citationText": "", "remark": "", "
+2026-03-27 10:10:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/pageSubmissionRepetition → 200 (0.045s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577407516", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:10:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/getSubmissionRepetition → 200 (0.023s)
+  REQ: {"submissionId": 999999999}
+  RSP: {"code": -1, "data": null, "msg": "稿件标题和内容不能为空", "path": null, "extra": null, "timestamp": "1774577407545", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:10:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page → 200 (0.038s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "", "station": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"id": "2037350425393467393", "account": "13855377091", "name": "auto", "station": "", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}, {"id": "2036993699782537217", "account": "18351626738", "name": "测试用户_自动化", "station": "测试单位", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}, {"id": "20369935966068531
+2026-03-27 10:10:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page → 200 (0.054s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "", "station": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577407638}
+2026-03-27 10:10:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login → 200 (0.113s)
+  REQ: {"account": "13800000001", "password": "WrongPwd@999", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RSP: {"code": 20004, "data": "", "msg": "用户名或密码错误!", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774577407710", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:10:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login → 200 (0.100s)
+  REQ: {"account": "10000000001", "password": "Any@123", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RSP: {"code": 20004, "data": "", "msg": "用户名或密码错误!", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774577407881", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:10:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login → 200 (0.122s)
+  REQ: {"account": "", "password": "Any@123", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RSP: {"code": -9, "data": "", "msg": "个数必须在1和50之间", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774577407921", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:10:07 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/registerAppUser → 200 (0.037s)
+  REQ: {"account": "13817529915", "password": "O0j#1gn@8D", "name": "auto", "station": ""}
+  RSP: {"code": 0, "data": {"id": "2037351431317590018", "createTime": "2026-03-27 10:10:08", "createUser": "2036978068114845697", "updateTime": "2026-03-27 10:10:08", "updateUser": "2036978068114845697", "account": "13817529915", "name": "auto", "idCard": null, "org": null, "station": "", "email": null, "mobile": null, "sex": null, "status": true, "firstLoginFlag": null, "avatar": null, "nation": null, "education": null, "positionStatus": null, "roles": null, "workDescribe": null, "passwordErrorLastTi
+2026-03-27 10:10:07 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode → 200 (0.031s)
+  REQ: -
+  RSP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774577408079", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:10:07 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode → 200 (0.023s)
+  REQ: -
+  RSP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774577408106", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:10:08 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile → 200 (0.043s)
+  REQ: -
+  RSP: {"code": 10001, "data": "", "msg": "请求中必须至少包含一个有效文件", "path": "/api/pub/uploadFile", "extra": null, "timestamp": "1774577408151", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:10:08 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkFileMd5 → 200 (0.614s)
+  REQ: -
+  RSP: {"code": "101", "data": null, "msg": "该文件没有上传过。"}
+2026-03-27 10:10:08 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/submission/listTemplate → 200 (0.119s)
+  REQ: -
+  RSP: {"code": 0, "data": [{"id": "2036984755353759745", "name": "test_01", "iconUrl": "/dbapp/static/file/260320/1774000095474/template-1.png", "title": "我的模板标题", "titleDesc": "这是一个模板", "contentElements": "我的内容故事", "status": 1, "updateTime": null, "domains": [{"id": "2036984755399897090", "createTime": "2026-03-26 09:53:06", "createUser": "2036984254247677953", "updateTime": "2026-03-26 09:53:06", "updateUser": "2036984254247677953", "templateId": "2036984755353759745", "domainCode": "TD_HSGS", "doma
+2026-03-27 10:10:08 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission → 200 (0.163s)
+  REQ: {"title": "草稿_eubs", "contentElements": "正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577409063", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:10:08 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission → 200 (0.041s)
+  REQ: {"title": "", "contentElements": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RSP: {"code": -9, "data": "", "msg": "稿件标题不能为空", "path": "/api/app/submission/saveSubmission", "extra": null, "timestamp": "1774577409109", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:10:09 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission → 200 (0.069s)
+  REQ: {"title": "flow_rbfuxi", "contentElements": "自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577409186", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:10:09 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission → 200 (0.027s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577409209", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:10:09 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission → 200 (0.024s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577409245}
+2026-03-27 10:10:09 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate → 200 (0.176s)
+  REQ: {"name": "auto_viwa", "title": "标题", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577409419", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:10:09 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate → 200 (0.130s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"name": "", "status": null}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"id": "2037351437030232065", "name": "auto_viwa", "iconUrl": "", "title": "标题", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-27 10:10:09", "domains": [{"id": "2037351437051203585", "createTime": "2026-03-27 10:10:09", "createUser": "2036984254247677953", "updateTime": "2026-03-27 10:10:09", "updateUser": "2036984254247677953", "templateId": "2037351437030232065", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}, {"id": "20370016276
+2026-03-27 10:10:09 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate → 200 (0.030s)
+  REQ: -
+  RSP: {"code": 20004, "data": "", "msg": "模板不存在", "path": "/api/template/detailTemplate", "extra": null, "timestamp": "1774577409592", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:10:09 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate → 200 (0.044s)
+  REQ: {"name": "crud_lmlrpj", "title": "CRUD", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577409638", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:10:09 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate → 200 (0.037s)
+  REQ: {"current": 1, "size": 20, "sort": "", "order": "descending", "model": {"name": "crud_lmlrpj", "status": null}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"id": "2037351437915230210", "name": "crud_lmlrpj", "iconUrl": "", "title": "CRUD", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-27 10:10:10", "domains": [{"id": "2037351437978144770", "createTime": "2026-03-27 10:10:10", "createUser": "2036984254247677953", "updateTime": "2026-03-27 10:10:10", "updateUser": "2036984254247677953", "templateId": "2037351437915230210", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}], "total": "1", 
+2026-03-27 10:10:09 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate → 200 (0.030s)
+  REQ: -
+  RSP: {"code": 0, "data": {"id": "2037351437915230210", "name": "crud_lmlrpj", "iconUrl": "", "title": "CRUD", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-27 10:10:10", "domains": [{"id": "2037351437978144770", "createTime": "2026-03-27 10:10:10", "createUser": "2036984254247677953", "updateTime": "2026-03-27 10:10:10", "updateUser": "2036984254247677953", "templateId": "2037351437915230210", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}, "msg": "ok", "path": null, "
+2026-03-27 10:13:13 [INFO] auto_test — admin base_url=http://10.50.31.141:28002/gateway
+2026-03-27 10:13:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission → 200 (0.123s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"submissionId": "2036993602118168578", "currentTaskId": "2037138257490550786", "templateId": "2036993387306889217", "domainCode": "TD_HSGS", "domainName": "红色故事", "submissionNo": "SN-2036993602118168576", "title": "这个技能集不仅涵盖了从需求分析到自动化测试的具体步骤，还强调了持续学习和适应新技术的重要性。希望这能", "contentElements": "当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。", "citationText": "", "remark": "", "
+2026-03-27 10:13:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageReviewSubmission → 200 (0.033s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"submissionId": "2037128152221032449", "currentTaskId": "2037347426470301698", "templateId": null, "domainCode": "TD_HSGS", "domainName": "红色故事", "submissionNo": "SN-2037128152225226752", "title": "国月", "contentElements": null, "citationText": null, "remark": null, "anonymous": null, "submitterId": "2036978068114845697", "submitter": "大d", "currentReviewer": null, "status": 2, "statusName": "待接收", "businessFlag": null, "submitTime": "2026-03-26 19:14:12", "urgen
+2026-03-27 10:13:13 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/countAdminSubmission → 200 (0.115s)
+  REQ: -
+  RSP: {"code": 0, "data": {"total": 8, "countAllocation": 0, "countReceive": null, "countAudit": 2, "countAuditing": 2, "countPass": 2, "countReject": 0, "countProcessing": 2, "countTransfer": null}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577593595", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:13:13 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/countReviewSubmission → 200 (0.025s)
+  REQ: -
+  RSP: {"code": 0, "data": {"total": 2, "countAllocation": null, "countReceive": 1, "countAudit": 0, "countAuditing": 1, "countPass": 0, "countReject": 0, "countProcessing": null, "countTransfer": 0}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577593622", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:13:13 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/detailSubmission/999999999 → 200 (0.025s)
+  REQ: -
+  RSP: {"code": 20004, "data": "", "msg": "稿件不存在", "path": "/api/submission/detailSubmission/999999999", "extra": null, "timestamp": "1774577593652", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:13:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAllocationSubmission → 200 (0.023s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577593678", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:13:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/listCheckUser → 200 (0.020s)
+  REQ: -
+  RSP: {"code": 0, "data": [{"id": "2034156690675142658", "name": "余伟达"}, {"id": "2034170831255179265", "name": "汪世杰"}, {"id": "2036777559787745281", "name": "曹端森"}, {"id": "2036974256454209538", "name": "审核人员1"}, {"id": "2036974439720128514", "name": "审核人员2"}, {"id": "2036984254247677953", "name": "gxx"}, {"id": "2037004577480224769", "name": "gxx审核1"}, {"id": "2037042811966959617", "name": "gxx_02"}], "msg": "ok", "path": null, "extra": null, "timestamp": "1774577593701", "success": true, "isSuccess"
+2026-03-27 10:13:13 [INFO] auto_test — user base_url=http://10.50.31.141:28003/gateway
+2026-03-27 10:13:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/submission/pageAdminSubmission → 200 (0.035s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"submissionId": "2036993602118168578", "currentTaskId": "2037138257490550786", "templateId": "2036993387306889217", "domainCode": "TD_HSGS", "domainName": "红色故事", "submissionNo": "SN-2036993602118168576", "title": "这个技能集不仅涵盖了从需求分析到自动化测试的具体步骤，还强调了持续学习和适应新技术的重要性。希望这能", "contentElements": "当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。", "citationText": "", "remark": "", "
+2026-03-27 10:13:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/pageSubmissionRepetition → 200 (0.034s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577593772", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:13:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/getSubmissionRepetition → 200 (0.027s)
+  REQ: {"submissionId": 999999999}
+  RSP: {"code": -1, "data": null, "msg": "稿件标题和内容不能为空", "path": null, "extra": null, "timestamp": "1774577593811", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:13:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page → 200 (0.045s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "", "station": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"id": "2037351431317590018", "account": "13817529915", "name": "auto", "station": "", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}, {"id": "2037350425393467393", "account": "13855377091", "name": "auto", "station": "", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}, {"id": "2036993699782537217", "ac
+2026-03-27 10:13:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page → 200 (0.018s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "", "station": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577593882}
+2026-03-27 10:13:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login → 200 (0.029s)
+  REQ: {"account": "13800000001", "password": "WrongPwd@999", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RSP: {"code": 20004, "data": "", "msg": "用户名或密码错误!", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774577593916", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:13:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login → 200 (0.026s)
+  REQ: {"account": "10000000001", "password": "Any@123", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RSP: {"code": 20004, "data": "", "msg": "用户名或密码错误!", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774577593942", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:13:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login → 200 (0.020s)
+  REQ: {"account": "", "password": "Any@123", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RSP: {"code": -9, "data": "", "msg": "个数必须在1和50之间", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774577593967", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:13:13 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/registerAppUser → 200 (0.021s)
+  REQ: {"account": "13890273664", "password": "nJ6@z3L5@p", "name": "auto", "station": ""}
+  RSP: {"code": 0, "data": {"id": "2037352211210670081", "createTime": "2026-03-27 10:13:13", "createUser": "2036978068114845697", "updateTime": "2026-03-27 10:13:13", "updateUser": "2036978068114845697", "account": "13890273664", "name": "auto", "idCard": null, "org": null, "station": "", "email": null, "mobile": null, "sex": null, "status": true, "firstLoginFlag": null, "avatar": null, "nation": null, "education": null, "positionStatus": null, "roles": null, "workDescribe": null, "passwordErrorLastTi
+2026-03-27 10:13:14 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode → 200 (0.120s)
+  REQ: -
+  RSP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774577594012", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:13:14 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode → 200 (0.017s)
+  REQ: -
+  RSP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774577594134", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:13:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile → 200 (0.035s)
+  REQ: -
+  RSP: {"code": 10001, "data": "", "msg": "请求中必须至少包含一个有效文件", "path": "/api/pub/uploadFile", "extra": null, "timestamp": "1774577594173", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:13:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkFileMd5 → 200 (0.150s)
+  REQ: -
+  RSP: {"code": "101", "data": null, "msg": "该文件没有上传过。"}
+2026-03-27 10:13:14 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/submission/listTemplate → 200 (0.028s)
+  REQ: -
+  RSP: {"code": 0, "data": [{"id": "2036984755353759745", "name": "test_01", "iconUrl": "/dbapp/static/file/260320/1774000095474/template-1.png", "title": "我的模板标题", "titleDesc": "这是一个模板", "contentElements": "我的内容故事", "status": 1, "updateTime": null, "domains": [{"id": "2036984755399897090", "createTime": "2026-03-26 09:53:06", "createUser": "2036984254247677953", "updateTime": "2026-03-26 09:53:06", "updateUser": "2036984254247677953", "templateId": "2036984755353759745", "domainCode": "TD_HSGS", "doma
+2026-03-27 10:13:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission → 200 (0.032s)
+  REQ: {"title": "草稿_plvf", "contentElements": "正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577594393", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:13:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission → 200 (0.230s)
+  REQ: {"title": "", "contentElements": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RSP: {"code": -9, "data": "", "msg": "稿件标题不能为空", "path": "/api/app/submission/saveSubmission", "extra": null, "timestamp": "1774577594424", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:13:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission → 200 (0.044s)
+  REQ: {"title": "flow_ndqbwh", "contentElements": "自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577594676", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:13:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission → 200 (0.031s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577594707", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:13:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission → 200 (0.018s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577594733}
+2026-03-27 10:13:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate → 200 (0.047s)
+  REQ: {"name": "auto_zfxf", "title": "标题", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577594783", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:13:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate → 200 (0.041s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"name": "", "status": null}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"id": "2037352214524170242", "name": "auto_zfxf", "iconUrl": "", "title": "标题", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-27 10:13:15", "domains": [{"id": "2037352214536753154", "createTime": "2026-03-27 10:13:15", "createUser": "2036984254247677953", "updateTime": "2026-03-27 10:13:15", "updateUser": "2036984254247677953", "templateId": "2037352214524170242", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}, {"id": "20373514379
+2026-03-27 10:13:14 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate → 200 (0.029s)
+  REQ: -
+  RSP: {"code": 20004, "data": "", "msg": "模板不存在", "path": "/api/template/detailTemplate", "extra": null, "timestamp": "1774577594860", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:13:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate → 200 (0.039s)
+  REQ: {"name": "crud_ozwrus", "title": "CRUD", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577594901", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:13:14 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate → 200 (0.051s)
+  REQ: {"current": 1, "size": 20, "sort": "", "order": "descending", "model": {"name": "crud_ozwrus", "status": null}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"id": "2037352215006515201", "name": "crud_ozwrus", "iconUrl": "", "title": "CRUD", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-27 10:13:15", "domains": [{"id": "2037352215031681026", "createTime": "2026-03-27 10:13:15", "createUser": "2036984254247677953", "updateTime": "2026-03-27 10:13:15", "updateUser": "2036984254247677953", "templateId": "2037352215006515201", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}], "total": "1", 
+2026-03-27 10:13:14 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate → 200 (0.038s)
+  REQ: -
+  RSP: {"code": 0, "data": {"id": "2037352215006515201", "name": "crud_ozwrus", "iconUrl": "", "title": "CRUD", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-27 10:13:15", "domains": [{"id": "2037352215031681026", "createTime": "2026-03-27 10:13:15", "createUser": "2036984254247677953", "updateTime": "2026-03-27 10:13:15", "updateUser": "2036984254247677953", "templateId": "2037352215006515201", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}, "msg": "ok", "path": null, "
+2026-03-27 10:13:21 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page → 200 (0.025s)
+  REQ: {"current": 1, "size": 5, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577601267}
+2026-03-27 10:15:28 [INFO] auto_test — 本次会话 Bug 报告文件: /Users/guxingxing/cursor_file/庆阳项目/auto_test/../testcase/bug2026032701.xlsx
+2026-03-27 10:15:28 [INFO] auto_test — admin base_url=http://10.50.31.141:28002/gateway
+2026-03-27 10:15:28 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission → 200 (0.064s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"submissionId": "2036993602118168578", "currentTaskId": "2037138257490550786", "templateId": "2036993387306889217", "domainCode": "TD_HSGS", "domainName": "红色故事", "submissionNo": "SN-2036993602118168576", "title": "这个技能集不仅涵盖了从需求分析到自动化测试的具体步骤，还强调了持续学习和适应新技术的重要性。希望这能", "contentElements": "当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。", "citationText": "", "remark": "", "
+2026-03-27 10:15:28 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageReviewSubmission → 200 (0.093s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"submissionId": "2037128152221032449", "currentTaskId": "2037347426470301698", "templateId": null, "domainCode": "TD_HSGS", "domainName": "红色故事", "submissionNo": "SN-2037128152225226752", "title": "国月", "contentElements": null, "citationText": null, "remark": null, "anonymous": null, "submitterId": "2036978068114845697", "submitter": "大d", "currentReviewer": null, "status": 2, "statusName": "待接收", "businessFlag": null, "submitTime": "2026-03-26 19:14:12", "urgen
+2026-03-27 10:15:28 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/countAdminSubmission → 200 (0.041s)
+  REQ: -
+  RSP: {"code": 0, "data": {"total": 8, "countAllocation": 0, "countReceive": null, "countAudit": 2, "countAuditing": 2, "countPass": 2, "countReject": 0, "countProcessing": 2, "countTransfer": null}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577728515", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:15:28 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/countReviewSubmission → 200 (0.029s)
+  REQ: -
+  RSP: {"code": 0, "data": {"total": 2, "countAllocation": null, "countReceive": 1, "countAudit": 0, "countAuditing": 1, "countPass": 0, "countReject": 0, "countProcessing": null, "countTransfer": 0}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577728551", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:15:28 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/detailSubmission/999999999 → 200 (0.035s)
+  REQ: -
+  RSP: {"code": 20004, "data": "", "msg": "稿件不存在", "path": "/api/submission/detailSubmission/999999999", "extra": null, "timestamp": "1774577728587", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:15:28 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAllocationSubmission → 200 (0.023s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577728617", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:15:28 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/listCheckUser → 200 (0.097s)
+  REQ: -
+  RSP: {"code": 0, "data": [{"id": "2034156690675142658", "name": "余伟达"}, {"id": "2034170831255179265", "name": "汪世杰"}, {"id": "2036777559787745281", "name": "曹端森"}, {"id": "2036974256454209538", "name": "审核人员1"}, {"id": "2036974439720128514", "name": "审核人员2"}, {"id": "2036984254247677953", "name": "gxx"}, {"id": "2037004577480224769", "name": "gxx审核1"}, {"id": "2037042811966959617", "name": "gxx_02"}], "msg": "ok", "path": null, "extra": null, "timestamp": "1774577728643", "success": true, "isSuccess"
+2026-03-27 10:15:28 [INFO] auto_test — user base_url=http://10.50.31.141:28003/gateway
+2026-03-27 10:15:28 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/submission/pageAdminSubmission → 200 (0.154s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"submissionId": "2036993602118168578", "currentTaskId": "2037138257490550786", "templateId": "2036993387306889217", "domainCode": "TD_HSGS", "domainName": "红色故事", "submissionNo": "SN-2036993602118168576", "title": "这个技能集不仅涵盖了从需求分析到自动化测试的具体步骤，还强调了持续学习和适应新技术的重要性。希望这能", "contentElements": "当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。", "citationText": "", "remark": "", "
+2026-03-27 10:15:28 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/pageSubmissionRepetition → 200 (0.028s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577729014", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:15:28 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/getSubmissionRepetition → 200 (0.025s)
+  REQ: {"submissionId": 999999999}
+  RSP: {"code": -1, "data": null, "msg": "稿件标题和内容不能为空", "path": null, "extra": null, "timestamp": "1774577729042", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:15:28 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page → 200 (0.033s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "", "station": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"id": "2037352211210670081", "account": "13890273664", "name": "auto", "station": "", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}, {"id": "2037351431317590018", "account": "13817529915", "name": "auto", "station": "", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}, {"id": "2037350425393467393", "ac
+2026-03-27 10:15:28 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page → 200 (0.037s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "", "station": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577729101}
+2026-03-27 10:15:28 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login → 200 (0.030s)
+  REQ: {"account": "13800000001", "password": "WrongPwd@999", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RSP: {"code": 20004, "data": "", "msg": "用户名或密码错误!", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774577729160", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:15:28 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login → 200 (0.016s)
+  REQ: {"account": "10000000001", "password": "Any@123", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RSP: {"code": 20004, "data": "", "msg": "用户名或密码错误!", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774577729180", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:15:29 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login → 200 (0.043s)
+  REQ: {"account": "", "password": "Any@123", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RSP: {"code": -9, "data": "", "msg": "个数必须在1和50之间", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774577729230", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:15:29 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/registerAppUser → 200 (0.021s)
+  REQ: {"account": "13829986746", "password": "v9I#Lze$77", "name": "auto", "station": ""}
+  RSP: {"code": 0, "data": {"id": "2037352778553200641", "createTime": "2026-03-27 10:15:29", "createUser": "2036978068114845697", "updateTime": "2026-03-27 10:15:29", "updateUser": "2036978068114845697", "account": "13829986746", "name": "auto", "idCard": null, "org": null, "station": "", "email": null, "mobile": null, "sex": null, "status": true, "firstLoginFlag": null, "avatar": null, "nation": null, "education": null, "positionStatus": null, "roles": null, "workDescribe": null, "passwordErrorLastTi
+2026-03-27 10:15:29 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode → 200 (0.019s)
+  REQ: -
+  RSP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774577729280", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:15:29 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode → 200 (0.104s)
+  REQ: -
+  RSP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774577729392", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:15:29 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile → 200 (0.044s)
+  REQ: -
+  RSP: {"code": 10001, "data": "", "msg": "请求中必须至少包含一个有效文件", "path": "/api/pub/uploadFile", "extra": null, "timestamp": "1774577729429", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:15:29 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkFileMd5 → 200 (0.085s)
+  REQ: -
+  RSP: {"code": "101", "data": null, "msg": "该文件没有上传过。"}
+2026-03-27 10:15:29 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/submission/listTemplate → 200 (0.041s)
+  REQ: -
+  RSP: {"code": 0, "data": [{"id": "2036984755353759745", "name": "test_01", "iconUrl": "/dbapp/static/file/260320/1774000095474/template-1.png", "title": "我的模板标题", "titleDesc": "这是一个模板", "contentElements": "我的内容故事", "status": 1, "updateTime": null, "domains": [{"id": "2036984755399897090", "createTime": "2026-03-26 09:53:06", "createUser": "2036984254247677953", "updateTime": "2026-03-26 09:53:06", "updateUser": "2036984254247677953", "templateId": "2036984755353759745", "domainCode": "TD_HSGS", "doma
+2026-03-27 10:15:29 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission → 200 (0.040s)
+  REQ: {"title": "草稿_xbgt", "contentElements": "正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577729625", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:15:29 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission → 200 (0.024s)
+  REQ: {"title": "", "contentElements": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RSP: {"code": -9, "data": "", "msg": "稿件标题不能为空", "path": "/api/app/submission/saveSubmission", "extra": null, "timestamp": "1774577729654", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:15:29 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission → 200 (0.112s)
+  REQ: {"title": "flow_kqvqst", "contentElements": "自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577729694", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:15:29 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission → 200 (0.028s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577729798", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:15:29 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission → 200 (0.103s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577729821}
+2026-03-27 10:15:29 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate → 200 (0.033s)
+  REQ: {"name": "auto_vyoc", "title": "标题", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577729950", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:15:29 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate → 200 (0.058s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"name": "", "status": null}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"id": "2037352781468241922", "name": "auto_vyoc", "iconUrl": "", "title": "标题", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-27 10:15:30", "domains": [{"id": "2037352781476630529", "createTime": "2026-03-27 10:15:30", "createUser": "2036984254247677953", "updateTime": "2026-03-27 10:15:30", "updateUser": "2036984254247677953", "templateId": "2037352781468241922", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}, {"id": "20373522145
+2026-03-27 10:15:29 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate → 200 (0.024s)
+  REQ: -
+  RSP: {"code": 20004, "data": "", "msg": "模板不存在", "path": "/api/template/detailTemplate", "extra": null, "timestamp": "1774577730047", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:15:29 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate → 200 (0.034s)
+  REQ: {"name": "crud_prxwqa", "title": "CRUD", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577730090", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:15:29 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate → 200 (0.037s)
+  REQ: {"current": 1, "size": 20, "sort": "", "order": "descending", "model": {"name": "crud_prxwqa", "status": null}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"id": "2037352782030278658", "name": "crud_prxwqa", "iconUrl": "", "title": "CRUD", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-27 10:15:30", "domains": [{"id": "2037352782063833090", "createTime": "2026-03-27 10:15:30", "createUser": "2036984254247677953", "updateTime": "2026-03-27 10:15:30", "updateUser": "2036984254247677953", "templateId": "2037352782030278658", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}], "total": "1", 
+2026-03-27 10:15:29 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate → 200 (0.020s)
+  REQ: -
+  RSP: {"code": 0, "data": {"id": "2037352782030278658", "name": "crud_prxwqa", "iconUrl": "", "title": "CRUD", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-27 10:15:30", "domains": [{"id": "2037352782063833090", "createTime": "2026-03-27 10:15:30", "createUser": "2036984254247677953", "updateTime": "2026-03-27 10:15:30", "updateUser": "2036984254247677953", "templateId": "2037352782030278658", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}, "msg": "ok", "path": null, "
+2026-03-27 10:19:20 [INFO] auto_test — 本次会话 Bug 报告文件: /Users/guxingxing/cursor_file/庆阳项目/auto_test/../testcase/bug2026032702.xlsx
+2026-03-27 10:19:20 [INFO] auto_test — admin base_url=http://10.50.31.141:28002/gateway
+2026-03-27 10:19:20 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAdminSubmission → 200 (0.115s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"submissionId": "2036993602118168578", "currentTaskId": "2037138257490550786", "templateId": "2036993387306889217", "domainCode": "TD_HSGS", "domainName": "红色故事", "submissionNo": "SN-2036993602118168576", "title": "这个技能集不仅涵盖了从需求分析到自动化测试的具体步骤，还强调了持续学习和适应新技术的重要性。希望这能", "contentElements": "当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。", "citationText": "", "remark": "", "
+2026-03-27 10:19:20 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageReviewSubmission → 200 (0.108s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"submissionId": "2037128152221032449", "currentTaskId": "2037347426470301698", "templateId": null, "domainCode": "TD_HSGS", "domainName": "红色故事", "submissionNo": "SN-2037128152225226752", "title": "国月", "contentElements": null, "citationText": null, "remark": null, "anonymous": null, "submitterId": "2036978068114845697", "submitter": "大d", "currentReviewer": null, "status": 2, "statusName": "待接收", "businessFlag": null, "submitTime": "2026-03-26 19:14:12", "urgen
+2026-03-27 10:19:20 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/countAdminSubmission → 200 (0.043s)
+  REQ: -
+  RSP: {"code": 0, "data": {"total": 8, "countAllocation": 0, "countReceive": null, "countAudit": 2, "countAuditing": 2, "countPass": 2, "countReject": 0, "countProcessing": 2, "countTransfer": null}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577960888", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:19:20 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/countReviewSubmission → 200 (0.030s)
+  REQ: -
+  RSP: {"code": 0, "data": {"total": 2, "countAllocation": null, "countReceive": 1, "countAudit": 0, "countAuditing": 1, "countPass": 0, "countReject": 0, "countProcessing": null, "countTransfer": 0}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577960919", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:19:20 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/submission/detailSubmission/999999999 → 200 (0.038s)
+  REQ: -
+  RSP: {"code": 20004, "data": "", "msg": "稿件不存在", "path": "/api/submission/detailSubmission/999999999", "extra": null, "timestamp": "1774577960959", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:19:20 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/pageAllocationSubmission → 200 (0.030s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577960994", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:19:20 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submission/listCheckUser → 200 (0.024s)
+  REQ: -
+  RSP: {"code": 0, "data": [{"id": "2034156690675142658", "name": "余伟达"}, {"id": "2034170831255179265", "name": "汪世杰"}, {"id": "2036777559787745281", "name": "曹端森"}, {"id": "2036974256454209538", "name": "审核人员1"}, {"id": "2036974439720128514", "name": "审核人员2"}, {"id": "2036984254247677953", "name": "gxx"}, {"id": "2037004577480224769", "name": "gxx审核1"}, {"id": "2037042811966959617", "name": "gxx_02"}], "msg": "ok", "path": null, "extra": null, "timestamp": "1774577961024", "success": true, "isSuccess"
+2026-03-27 10:19:20 [INFO] auto_test — user base_url=http://10.50.31.141:28003/gateway
+2026-03-27 10:19:21 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/submission/pageAdminSubmission → 200 (0.195s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"submissionId": "2036993602118168578", "currentTaskId": "2037138257490550786", "templateId": "2036993387306889217", "domainCode": "TD_HSGS", "domainName": "红色故事", "submissionNo": "SN-2036993602118168576", "title": "这个技能集不仅涵盖了从需求分析到自动化测试的具体步骤，还强调了持续学习和适应新技术的重要性。希望这能", "contentElements": "当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。", "citationText": "", "remark": "", "
+2026-03-27 10:19:21 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/pageSubmissionRepetition → 200 (0.047s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577961403", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:19:21 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/getSubmissionRepetition → 200 (0.345s)
+  REQ: {"submissionId": 999999999}
+  RSP: {"code": -1, "data": null, "msg": "稿件标题和内容不能为空", "path": null, "extra": null, "timestamp": "1774577961453", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:19:21 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page → 200 (0.055s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "", "station": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"id": "2037352778553200641", "account": "13829986746", "name": "auto", "station": "", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}, {"id": "2037352211210670081", "account": "13890273664", "name": "auto", "station": "", "firstLoginFlag": true, "passwordErrorLastTime": null, "passwordErrorNum": 0, "passwordExpireTime": null, "lastLoginTime": null}, {"id": "2037351431317590018", "ac
+2026-03-27 10:19:21 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/system/appUser/page → 200 (0.028s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"account": "", "name": "", "station": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577961856}
+2026-03-27 10:19:21 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login → 200 (0.074s)
+  REQ: {"account": "13800000001", "password": "WrongPwd@999", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RSP: {"code": 20004, "data": "", "msg": "用户名或密码错误!", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774577961921", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:19:21 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login → 200 (0.046s)
+  REQ: {"account": "10000000001", "password": "Any@123", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RSP: {"code": 20004, "data": "", "msg": "用户名或密码错误!", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774577961974", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:19:21 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/login → 200 (0.028s)
+  REQ: {"account": "", "password": "Any@123", "grantType": "password", "code": "", "key": "", "name": "", "zzdCode": "", "zzdId": "", "rememberMe": false}
+  RSP: {"code": -9, "data": "", "msg": "个数必须在1和50之间", "path": "/api/app/appUser/login", "extra": null, "timestamp": "1774577962023", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:19:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/appUser/registerAppUser → 200 (0.163s)
+  REQ: {"account": "13812470527", "password": "@9n3H9swB#", "name": "auto", "station": ""}
+  RSP: {"code": 0, "data": {"id": "2037353755016531969", "createTime": "2026-03-27 10:19:22", "createUser": "2036978068114845697", "updateTime": "2026-03-27 10:19:22", "updateUser": "2036978068114845697", "account": "13812470527", "name": "auto", "idCard": null, "org": null, "station": "", "email": null, "mobile": null, "sex": null, "status": true, "firstLoginFlag": null, "avatar": null, "nation": null, "education": null, "positionStatus": null, "roles": null, "workDescribe": null, "passwordErrorLastTi
+2026-03-27 10:19:22 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode → 200 (0.019s)
+  REQ: -
+  RSP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774577962216", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:19:22 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode → 200 (0.021s)
+  REQ: -
+  RSP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774577962238", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:19:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile → 200 (0.066s)
+  REQ: -
+  RSP: {"code": 10001, "data": "", "msg": "请求中必须至少包含一个有效文件", "path": "/api/pub/uploadFile", "extra": null, "timestamp": "1774577962298", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:19:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/pub/uploadFile/checkFileMd5 → 200 (0.124s)
+  REQ: -
+  RSP: {"code": "101", "data": null, "msg": "该文件没有上传过。"}
+2026-03-27 10:19:22 [DEBUG] auto_test — [GET] http://10.50.31.141:28003/gateway/api/app/submission/listTemplate → 200 (0.031s)
+  REQ: -
+  RSP: {"code": 0, "data": [{"id": "2036984755353759745", "name": "test_01", "iconUrl": "/dbapp/static/file/260320/1774000095474/template-1.png", "title": "我的模板标题", "titleDesc": "这是一个模板", "contentElements": "我的内容故事", "status": 1, "updateTime": null, "domains": [{"id": "2036984755399897090", "createTime": "2026-03-26 09:53:06", "createUser": "2036984254247677953", "updateTime": "2026-03-26 09:53:06", "updateUser": "2036984254247677953", "templateId": "2036984755353759745", "domainCode": "TD_HSGS", "doma
+2026-03-27 10:19:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission → 200 (0.105s)
+  REQ: {"title": "草稿_wnma", "contentElements": "正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577962513", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:19:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission → 200 (0.061s)
+  REQ: {"title": "", "contentElements": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RSP: {"code": -9, "data": "", "msg": "稿件标题不能为空", "path": "/api/app/submission/saveSubmission", "extra": null, "timestamp": "1774577962639", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:19:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission → 200 (0.127s)
+  REQ: {"title": "flow_diezkm", "contentElements": "自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文自动化正文", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577962780", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:19:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission → 200 (0.063s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [], "total": "0", "size": "10", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577962844", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:19:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission → 200 (0.019s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"title": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577962897}
+2026-03-27 10:19:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate → 200 (0.040s)
+  REQ: {"name": "auto_ixxy", "title": "标题", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577962942", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:19:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate → 200 (0.035s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"name": "", "status": null}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"id": "2037353758707519489", "name": "auto_ixxy", "iconUrl": "", "title": "标题", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-27 10:19:23", "domains": [{"id": "2037353758715908098", "createTime": "2026-03-27 10:19:23", "createUser": "2036984254247677953", "updateTime": "2026-03-27 10:19:23", "updateUser": "2036984254247677953", "templateId": "2037353758707519489", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}, {"id": "20373527814
+2026-03-27 10:19:22 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate → 200 (0.050s)
+  REQ: -
+  RSP: {"code": 20004, "data": "", "msg": "模板不存在", "path": "/api/template/detailTemplate", "extra": null, "timestamp": "1774577963031", "success": false, "isSuccess": false, "isFail": true}
+2026-03-27 10:19:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate → 200 (0.042s)
+  REQ: {"name": "crud_lpiqwi", "title": "CRUD", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RSP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774577963087", "success": true, "isSuccess": true, "isFail": false}
+2026-03-27 10:19:22 [DEBUG] auto_test — [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate → 200 (0.058s)
+  REQ: {"current": 1, "size": 20, "sort": "", "order": "descending", "model": {"name": "crud_lpiqwi", "status": null}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"id": "2037353759298916353", "name": "crud_lpiqwi", "iconUrl": "", "title": "CRUD", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-27 10:19:23", "domains": [{"id": "2037353759319887874", "createTime": "2026-03-27 10:19:23", "createUser": "2036984254247677953", "updateTime": "2026-03-27 10:19:23", "updateUser": "2036984254247677953", "templateId": "2037353759298916353", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}], "total": "1", 
+2026-03-27 10:19:23 [DEBUG] auto_test — [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate → 200 (0.126s)
+  REQ: -
+  RSP: {"code": 0, "data": {"id": "2037353759298916353", "name": "crud_lpiqwi", "iconUrl": "", "title": "CRUD", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-27 10:19:23", "domains": [{"id": "2037353759319887874", "createTime": "2026-03-27 10:19:23", "createUser": "2036984254247677953", "updateTime": "2026-03-27 10:19:23", "updateUser": "2036984254247677953", "templateId": "2037353759298916353", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}, "msg": "ok", "path": null, "

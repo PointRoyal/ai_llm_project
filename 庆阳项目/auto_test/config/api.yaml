@@ -1,0 +1,21 @@
+# API 自动化测试 — 全局配置（替换本文件即可换环境）
+# 若接口返回 code=10002「用户登录已过期」，请从浏览器 F12 → Network 里复制最新 Bearer token 更新下方两项。
+
+admin:
+  base_url: "http://10.50.31.141:28002/gateway"
+  token: "1a428798-66de-4eec-afd5-e5d6f64fc92c"
+
+user:
+  base_url: "http://10.50.31.141:28003/gateway"
+  token: "7060cecb-ba42-423e-957d-4a0239944197"
+
+common_headers:
+  Sh-Client: "Basic c2h1aGFuX3VpOnNodWhhbl91aV9zZWNyZXQ="
+  Content-Type: "application/json"
+  Accept: "application/json, text/plain, */*"
+
+timeout: 30
+
+testcase_file: "../testcase/testcase.xlsx"
+# Bug 报告：每次 pytest 在 testcase/ 下自动生成 bugYYYYMMDDNN.xlsx（如 bug2026032701.xlsx），不覆盖旧文件
+bug_file: "../testcase/bugYYYYMMDDNN.xlsx"

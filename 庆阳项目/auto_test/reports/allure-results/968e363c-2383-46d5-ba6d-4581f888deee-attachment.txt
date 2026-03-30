@@ -1,0 +1,3 @@
+DEBUG    auto_test:http_client.py:115 [POST] http://10.50.31.141:28002/gateway/api/template/pageTemplate → 200 (0.058s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"name": "", "status": null}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"id": "2037352781468241922", "name": "auto_vyoc", "iconUrl": "", "title": "标题", "titleDesc": "", "contentElements": "", "status": 1, "updateTime": "2026-03-27 10:15:30", "domains": [{"id": "2037352781476630529", "createTime": "2026-03-27 10:15:30", "createUser": "2036984254247677953", "updateTime": "2026-03-27 10:15:30", "updateUser": "2036984254247677953", "templateId": "2037352781468241922", "domainCode": "TD_HSGS", "domainName": "红色故事"}]}, {"id": "20373522145

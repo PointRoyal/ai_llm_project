@@ -1,0 +1,15 @@
+10:28:39 [DEBUG] [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.031s)
+  REQ : {"title": "自动化投稿_jwljti", "contentElements": "自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文", "domainCode": "TD_HSGS", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492119486", "isSuccess": true, "success": true, "isFail": false}
+10:28:39 [DEBUG] [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission  →  200  (0.033s)
+  REQ : {"current": 1, "size": 5, "sort": "", "order": "descending", "model": {"title": "", "status": "", "submitType": 0}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [{"id": "2036993601346416641", "title": "草稿_rmkg", "domainCode": "TD_HSGS", "domainName": "红色故事", "submitTime": "2026-03-26 10:19:33", "status": null, "repetitionRate": null, "urgencyStatus": "0", "urgeTime": null}, {"id": "2036993602118168578", "title": "自动化投稿_dmuizl", "domainCode": "TD_HSGS", "domainName": "红色故事", "submitTime": "2026-03-26 10:19:33", "status": null, "repetitionRate": null, "urgencyStatus": "0", "urgeTime": null}, {"id": "2036993603896553473", "t
+10:28:39 [DEBUG] [GET] http://10.50.31.141:28003/gateway/api/app/submission/detailSubmission/2036993601346416641  →  200  (0.110s)
+  REQ : -
+  RESP: {"code": 0, "data": {"id": "2036993601346416641", "createTime": "2026-03-26 10:28:15", "createUser": "2036978068114845697", "updateTime": "2026-03-26 10:28:15", "updateUser": "2036978068114845697", "templateId": null, "domainCode": "TD_HSGS", "submissionNo": "SN-2036993601338028032", "title": "草稿_rmkg", "contentElements": "草稿内容，至少50字草稿内容，至少50字草稿内容，至少50字", "citationText": "", "remark": "", "anonymous": 0, "submitterId": "2036978068114845697", "submitType": 0, "status": null, "currentTaskId": null
+10:28:39 [DEBUG] [POST] http://10.50.31.141:28003/gateway/api/app/submission/countMyselfSubmission  →  200  (0.020s)
+  REQ : -
+  RESP: {"code": 0, "data": {"countAll": 0, "countUnderReview": 0, "countPassed": 0, "countRejected": 0}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492119654", "isSuccess": true, "success": true, "isFail": false}
+10:28:39 [DEBUG] [POST] http://10.50.31.141:28003/gateway/api/app/submission/deleteSubmission  →  200  (0.028s)
+  REQ : {"id": "2036993601346416641"}
+  RESP: {"code": -5, "data": "", "msg": "系统繁忙~请稍候再试~", "path": "/api/app/submission/deleteSubmission", "extra": null, "timestamp": "1774492119675", "isSuccess": false, "success": false, "isFail": true}

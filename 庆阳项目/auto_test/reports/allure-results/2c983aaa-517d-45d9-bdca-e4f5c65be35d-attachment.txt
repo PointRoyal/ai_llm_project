@@ -1,0 +1,3 @@
+10:28:37 [DEBUG] [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/getSubmissionRepetition  →  200  (0.018s)
+  REQ : {"submissionId": 999999999}
+  RESP: {"code": -1, "data": null, "msg": "稿件标题和内容不能为空", "path": null, "extra": null, "timestamp": "1774492117773", "isSuccess": false, "success": false, "isFail": true}

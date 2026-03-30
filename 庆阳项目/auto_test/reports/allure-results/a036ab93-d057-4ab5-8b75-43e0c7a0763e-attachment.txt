@@ -1,0 +1,3 @@
+DEBUG    auto_test:http_client.py:115 [GET] http://10.50.31.141:28002/gateway/api/submission/detailSubmission/999999999 → 200 (0.038s)
+  REQ: -
+  RSP: {"code": 20004, "data": "", "msg": "稿件不存在", "path": "/api/submission/detailSubmission/999999999", "extra": null, "timestamp": "1774577960959", "success": false, "isSuccess": false, "isFail": true}

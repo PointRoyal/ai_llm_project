@@ -1,0 +1,25 @@
+##管理端新增模板接口:
+curl 'http://10.50.31.141:28002/gateway/api/template/saveTemplate' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: 
+Bearer 1a428798-66de-4eec-afd5-e5d6f64fc92c' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Origin: http://10.50.31.141:28002' \
+  -H 'Referer: http://10.50.31.141:28002/' \
+  -H 'Sh-Client: Basic c2h1aGFuX3VpOnNodWhhbl91aV9zZWNyZXQ=' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36' \
+  --data-raw '{"id":null,"name":"test_01","domains":["TD_HSGS"],"iconUrl":"/dbapp/static/file/260320/1774000095474/template-1.png","status":1,"title":"我的模板标题","titleDesc":"这是一个模板","contentElements":"我的内容故事","domain":["TD_HSGS"]}' \
+  --insecure
+
+##用户端获取模板列表：
+curl 'http://10.50.31.141:28003/gateway/api/app/submission/listTemplate' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Bearer 7060cecb-ba42-423e-957d-4a0239944197' \
+  -H 'Connection: keep-alive' \
+  -H 'Referer: http://10.50.31.141:28003/' \
+  -H 'Sh-Client: Basic c2h1aGFuX3VpOnNodWhhbl91aV9zZWNyZXQ=' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36' \
+  --insecure

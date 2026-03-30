@@ -1,0 +1,3 @@
+DEBUG    auto_test:http_client.py:115 [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode → 200 (0.019s)
+  REQ: -
+  RSP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774577729280", "success": true, "isSuccess": true, "isFail": false}

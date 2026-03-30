@@ -1,0 +1,3 @@
+10:28:39 [DEBUG] [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.025s)
+  REQ : {"title": "", "contentElements": "内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容", "domainCode": "", "templateId": null, "anonymous": 0, "submitType": 1, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": -9, "data": "", "msg": "稿件标题不能为空", "path": "/api/app/submission/saveSubmission", "extra": null, "timestamp": "1774492119428", "isSuccess": false, "success": false, "isFail": true}

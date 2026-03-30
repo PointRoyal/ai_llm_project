@@ -1,0 +1,1 @@
+2026-03-27 10:10:06 [INFO] auto_test — admin base_url=http://10.50.31.141:28002/gateway

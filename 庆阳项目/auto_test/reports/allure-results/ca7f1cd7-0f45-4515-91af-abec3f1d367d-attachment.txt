@@ -1,0 +1,4 @@
+INFO     auto_test:conftest.py:76 user base_url=http://10.50.31.141:28003/gateway
+DEBUG    auto_test:http_client.py:115 [POST] http://10.50.31.141:28003/gateway/api/submission/pageAdminSubmission → 200 (0.154s)
+  REQ: {"current": 1, "size": 10, "sort": "", "order": "descending", "model": {"keyword": ""}, "map": {}, "timeRange": null}
+  RSP: {"code": 0, "data": {"records": [{"submissionId": "2036993602118168578", "currentTaskId": "2037138257490550786", "templateId": "2036993387306889217", "domainCode": "TD_HSGS", "domainName": "红色故事", "submissionNo": "SN-2036993602118168576", "title": "这个技能集不仅涵盖了从需求分析到自动化测试的具体步骤，还强调了持续学习和适应新技术的重要性。希望这能", "contentElements": "当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。当测试失败时，自动生成缺陷记录，并将其保存至指定位置(如Excel/缺陷跟踪系统)。\n提供简洁明了的错误描述和重现步骤，加速问题修复过程。", "citationText": "", "remark": "", "

@@ -1,0 +1,252 @@
+# ============================================================
+# 项目模块接口测试数据
+# 数据与代码分离：所有测试入参、预期结果均在此维护
+# ============================================================
+
+# ---- 查询看板列表接口 (/frontProjectsDashboard) ----
+dashboard_query:
+
+  # 正常场景
+  normal_full_params:
+    desc: "正常分页查询，size=10"
+    payload:
+      params:
+        current: 1
+        map: {}
+      model:
+        order: "asc"
+        size: 10
+        sort: "createTime"
+    expect:
+      code: 0
+      success: true
+      has_records: true
+
+  normal_large_page:
+    desc: "size=999 获取全量"
+    payload:
+      params:
+        current: 1
+        map: {}
+      model:
+        order: "asc"
+        size: 999
+        sort: "createTime"
+    expect:
+      code: 0
+      success: true
+
+  sort_desc:
+    desc: "按createTime降序"
+    payload:
+      params:
+        current: 1
+        map: {}
+      model:
+        order: "desc"
+        size: 10
+        sort: "createTime"
+    expect:
+      code: 0
+      success: true
+
+  # 边界场景
+  page_size_zero:
+    desc: "size=0 边界值"
+    payload:
+      params:
+        current: 1
+        map: {}
+      model:
+        order: "asc"
+        size: 0
+        sort: "createTime"
+    expect:
+      # size=0时预期：返回空列表或报错，不应崩溃
+      not_crash: true
+
+  page_current_overflow:
+    desc: "current超出总页数"
+    payload:
+      params:
+        current: 9999
+        map: {}
+      model:
+        order: "asc"
+        size: 10
+        sort: "createTime"
+    expect:
+      code: 0
+      success: true
+      records_empty: true
+
+  # 异常场景
+  no_token:
+    desc: "无鉴权Token"
+    use_token: false
+    payload:
+      params:
+        current: 1
+        map: {}
+      model:
+        order: "asc"
+        size: 10
+        sort: "createTime"
+    expect:
+      # 预期401或返回code非0
+      unauthorized: true
+
+  empty_body:
+    desc: "请求体为空"
+    payload: {}
+    expect:
+      not_crash: true
+
+
+# ---- 更新项目接口 (/updateFrontProjects) ----
+update_project:
+
+  # 正常场景
+  normal_update:
+    desc: "正常更新项目信息（修改startDate）"
+    payload:
+      id: "2033738337043685378"
+      projectName: "新建一个项目"
+      city: "上海"
+      startDate: "2024-06-05"
+      endDate: "2027-11-24"
+      status: 1
+      owner: "2029796795590172673"
+      milestones: "[]"
+      tasks: []
+    expect:
+      code: 0
+      data: true
+
+  update_status_to_archived:
+    desc: "将项目状态改为已归档(status=2)"
+    payload:
+      id: "2033738337043685378"
+      projectName: "新建一个项目"
+      city: "上海"
+      startDate: "2024-06-05"
+      endDate: "2027-11-24"
+      status: 2
+      owner: "2029796795590172673"
+      milestones: "[]"
+      tasks: []
+    expect:
+      code: 0
+      data: true
+    teardown_restore_status: 1   # 测试后恢复为进行中
+
+  # 异常场景
+  missing_project_name:
+    desc: "项目名称为空"
+    payload:
+      id: "2033738337043685378"
+      projectName: ""
+      city: "上海"
+      startDate: "2024-06-05"
+      endDate: "2027-11-24"
+      status: 1
+      owner: "2029796795590172673"
+      milestones: "[]"
+      tasks: []
+    expect:
+      # 预期：返回错误提示，不允许保存
+      success: false
+
+  end_before_start:
+    desc: "结束时间早于开始时间"
+    payload:
+      id: "2033738337043685378"
+      projectName: "测试时间异常项目"
+      city: "上海"
+      startDate: "2026-05-10"
+      endDate: "2026-01-01"
+      status: 1
+      owner: "2029796795590172673"
+      milestones: "[]"
+      tasks: []
+    expect:
+      # 预期：返回错误，不允许写入【当前系统可能存在Bug，实际可能写入成功】
+      success: false
+      bug_risk: "结束时间早于开始时间，后端未校验"
+
+  project_name_too_long:
+    desc: "项目名称超长（100字符以上）"
+    payload:
+      id: "2033738337043685378"
+      projectName: "超长项目名称测试超长项目名称测试超长项目名称测试超长项目名称测试超长项目名称测试超长项目名称测试超长项目名称测试超长项目名称测试超长项目名称测试超长项目名称测试超长项目名称"
+      city: "上海"
+      startDate: "2024-06-05"
+      endDate: "2027-11-24"
+      status: 1
+      owner: "2029796795590172673"
+      milestones: "[]"
+      tasks: []
+    expect:
+      not_crash: true
+
+  invalid_project_id:
+    desc: "使用不存在的项目ID"
+    payload:
+      id: "9999999999999999999"
+      projectName: "不存在项目"
+      city: "上海"
+      startDate: "2024-06-05"
+      endDate: "2027-11-24"
+      status: 1
+      owner: "2029796795590172673"
+      milestones: "[]"
+      tasks: []
+    expect:
+      success: false
+
+  xss_in_project_name:
+    desc: "项目名称含XSS注入"
+    payload:
+      id: "2033738337043685378"
+      projectName: "<script>alert('xss')</script>"
+      city: "上海"
+      startDate: "2024-06-05"
+      endDate: "2027-11-24"
+      status: 1
+      owner: "2029796795590172673"
+      milestones: "[]"
+      tasks: []
+    expect:
+      not_crash: true
+      no_script_exec: true
+
+  sql_injection_in_city:
+    desc: "城市字段SQL注入"
+    payload:
+      id: "2033738337043685378"
+      projectName: "SQL注入测试"
+      city: "' OR '1'='1"
+      startDate: "2024-06-05"
+      endDate: "2027-11-24"
+      status: 1
+      owner: "2029796795590172673"
+      milestones: "[]"
+      tasks: []
+    expect:
+      not_crash: true
+
+  no_token:
+    desc: "不携带Token直接请求"
+    use_token: false
+    payload:
+      id: "2033738337043685378"
+      projectName: "无Token测试"
+      city: "上海"
+      startDate: "2024-06-05"
+      endDate: "2027-11-24"
+      status: 1
+      owner: "2029796795590172673"
+      milestones: "[]"
+      tasks: []
+    expect:
+      unauthorized: true

@@ -1,0 +1,3 @@
+DEBUG    auto_test:http_client.py:115 [POST] http://10.50.31.141:28002/gateway/api/submissionRepetition/getSubmissionRepetition → 200 (0.345s)
+  REQ: {"submissionId": 999999999}
+  RSP: {"code": -1, "data": null, "msg": "稿件标题和内容不能为空", "path": null, "extra": null, "timestamp": "1774577961453", "success": false, "isSuccess": false, "isFail": true}

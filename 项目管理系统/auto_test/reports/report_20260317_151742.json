@@ -1,0 +1,456 @@
+[
+  {
+    "case_id": "PROJ_LIST-normal_full_params",
+    "title": "正常分页查询，size=10",
+    "module": "项目列表/查询",
+    "status": "PASS",
+    "elapsed_ms": 61.411142349243164,
+    "request_body": {
+      "params": {
+        "current": 1,
+        "map": {}
+      },
+      "model": {
+        "order": "asc",
+        "size": 10,
+        "sort": "createTime"
+      }
+    },
+    "response_body": {
+      "code": 0,
+      "data": {
+        "records": [
+          {
+            "id": "2033460721607507970",
+            "projectName": "项目名称11",
+            "status": 1,
+            "owner": "1788894025252933633",
+            "ownerName": "杨国",
+            "progress": 68.0,
+            "startDate": "2026-03-09",
+            "endDate": "2026-03-16",
+            "milestones": "[{\"id\":\"milestone_1773649782912\",\"name\":\"节点1\",\"color\":\"#ef4444\",\"date\":\"2026-03-16\"}]",
+            "city": "杭州"
+          },
+          {
+            "id": "2033513630919602177",
+            "projectName": "测试0316",
+            "status": 1,
+            "owner": "1979077293170155522",
+            "ownerName": "熊振",
+            "progress": 60.0,
+            "startDate": "2026-03-09",
+            "endDate": "2026-03-11",
+            "milestones": "[{\"id\":\"milestone_1773662397718\",\"name\":\"节点1\",\"color\":\"#ef4444\",\"date\":\"2026-03-16\"}]",
+            "city": ""
+          },
+          {
+            "id": "2033514680275742721",
+            "projectName": "111111",
+            "status": 1,
+            "owner": "1979077293170155522",
+            "ownerName": "熊振",
+            "progress": 100.0,
+            "startDate": "2026-03-05",
+            "endDate": "2026-04-13",
+            "milestones": "[]",
+            "city": ""
+          },
+          {
+            "id": "2033715259258224641",
+            "projectName": "3.17新增项目",
+            "status": 2,
+            "owner": "2029796795590172673",
+            "ownerName": "roy.gu",
+            "progress": 0.0,
+            "startDate": "2026-03-03",
+            "endDate": "2026-04-01",
+            "milestones": "[]",
+            "city": "江苏南通"
+          },
+          {
+            "id": "2033719088892657665",
+            "projectName": "1221321",
+            "status": 1,
+            "owner": "2029796795590172673",
+            "ownerName": "roy.gu",
+            "progress": 50.0,
+            "startDate": "2026-03-02",
+            "endDate": "2026-03-30",
+            "milestones": "[{\"id\":\"milestone_1773711396846\",\"name\":\"投标日期\",\"color\":\"#FB0303FF\",\"date\":1774800000000},{\"id\":\"milestone_1773711507198\",\"name\":\"项目上线\",\"color\":\"#2E00FEFF\",\"date\":1775750400000}]",
+            "city": "江苏南通"
+          },
+          {
+            "id": "2033738337043685378",
+            "projectName": "这是一个非常重要非常有名气非常有钱非常有名提高企业知名度非常重要的项目之宁波可信数据空间提前实施部署",
+            "status": 1,
+            "owner": "2029796795590172673",
+            "ownerName": "roy.gu",
+            "progress": 2.0,
+            "startDate": "2026-02-27",
+            "endDate": "2027-11-24",
+            "milestones": "[{\"id\":\"milestone_1773716579699\",\"name\":\"快速知道要哪些东西\",\"color\":\"#ef4444\",\"date\":1772553600000},{\"id\":\"milestone_1773716603933\",\"name\":\"材料准备完成\",\"color\":\"#FFEE04FF\",\"date\":1772726400000},{\"id\":\"milestone_1773716627483\",\"name\":\"需求评审完成\",\"color\":\"#04FEEDFF\",\"date\":1773072000000},{\"id\":\"milestone_1773716654521\",\"name\":\"开发完成\",\"color\":\"#FB03F3FF\",\"date\":1774368000000},{\"id\":\"milestone_1773716660914\",\"name\":\"项目结束\",\"color\":\"#2802FBFF\",\"date\":1774886400000}]",
+            "city": "上海"
+          },
+          {
+            "id": "2033456961363689473",
+            "projectName": "测试222",
+            "status": 1,
+            "owner": "3",
+            "ownerName": "超级管理员",
+            "progress": 0.0,
+            "startDate": "2026-03-02",
+            "endDate": "2026-01-01",
+            "milestones": "",
+            "city": "杭州"
+          }
+        ],
+        "total": "7",
+        "size": "10",
+        "current": "1",
+        "orders": [
+          {
+            "column": "id",
+            "asc": true
+          }
+        ],
+        "optimizeCountSql": true,
+        "hitCount": false,
+        "countId": null,
+        "maxLimit": null,
+        "searchCount": true,
+        "pages": "1"
+      },
+      "msg": "ok",
+      "path": null,
+      "extra": null,
+      "timestamp": "1773731862541",
+      "success": true,
+      "isSuccess": true,
+      "isFail": false
+    },
+    "error_msg": "",
+    "executed_at": "2026-03-17 15:17:42"
+  },
+  {
+    "case_id": "PROJ_LIST-normal_large_page",
+    "title": "size=999 获取全量",
+    "module": "项目列表/查询",
+    "status": "PASS",
+    "elapsed_ms": 34.169912338256836,
+    "request_body": {
+      "params": {
+        "current": 1,
+        "map": {}
+      },
+      "model": {
+        "order": "asc",
+        "size": 999,
+        "sort": "createTime"
+      }
+    },
+    "response_body": {
+      "code": 0,
+      "data": {
+        "records": [
+          {
+            "id": "2033460721607507970",
+            "projectName": "项目名称11",
+            "status": 1,
+            "owner": "1788894025252933633",
+            "ownerName": "杨国",
+            "progress": 68.0,
+            "startDate": "2026-03-09",
+            "endDate": "2026-03-16",
+            "milestones": "[{\"id\":\"milestone_1773649782912\",\"name\":\"节点1\",\"color\":\"#ef4444\",\"date\":\"2026-03-16\"}]",
+            "city": "杭州"
+          },
+          {
+            "id": "2033513630919602177",
+            "projectName": "测试0316",
+            "status": 1,
+            "owner": "1979077293170155522",
+            "ownerName": "熊振",
+            "progress": 60.0,
+            "startDate": "2026-03-09",
+            "endDate": "2026-03-11",
+            "milestones": "[{\"id\":\"milestone_1773662397718\",\"name\":\"节点1\",\"color\":\"#ef4444\",\"date\":\"2026-03-16\"}]",
+            "city": ""
+          },
+          {
+            "id": "2033514680275742721",
+            "projectName": "111111",
+            "status": 1,
+            "owner": "1979077293170155522",
+            "ownerName": "熊振",
+            "progress": 100.0,
+            "startDate": "2026-03-05",
+            "endDate": "2026-04-13",
+            "milestones": "[]",
+            "city": ""
+          },
+          {
+            "id": "2033715259258224641",
+            "projectName": "3.17新增项目",
+            "status": 2,
+            "owner": "2029796795590172673",
+            "ownerName": "roy.gu",
+            "progress": 0.0,
+            "startDate": "2026-03-03",
+            "endDate": "2026-04-01",
+            "milestones": "[]",
+            "city": "江苏南通"
+          },
+          {
+            "id": "2033719088892657665",
+            "projectName": "1221321",
+            "status": 1,
+            "owner": "2029796795590172673",
+            "ownerName": "roy.gu",
+            "progress": 50.0,
+            "startDate": "2026-03-02",
+            "endDate": "2026-03-30",
+            "milestones": "[{\"id\":\"milestone_1773711396846\",\"name\":\"投标日期\",\"color\":\"#FB0303FF\",\"date\":1774800000000},{\"id\":\"milestone_1773711507198\",\"name\":\"项目上线\",\"color\":\"#2E00FEFF\",\"date\":1775750400000}]",
+            "city": "江苏南通"
+          },
+          {
+            "id": "2033738337043685378",
+            "projectName": "这是一个非常重要非常有名气非常有钱非常有名提高企业知名度非常重要的项目之宁波可信数据空间提前实施部署",
+            "status": 1,
+            "owner": "2029796795590172673",
+            "ownerName": "roy.gu",
+            "progress": 2.0,
+            "startDate": "2026-02-27",
+            "endDate": "2027-11-24",
+            "milestones": "[{\"id\":\"milestone_1773716579699\",\"name\":\"快速知道要哪些东西\",\"color\":\"#ef4444\",\"date\":1772553600000},{\"id\":\"milestone_1773716603933\",\"name\":\"材料准备完成\",\"color\":\"#FFEE04FF\",\"date\":1772726400000},{\"id\":\"milestone_1773716627483\",\"name\":\"需求评审完成\",\"color\":\"#04FEEDFF\",\"date\":1773072000000},{\"id\":\"milestone_1773716654521\",\"name\":\"开发完成\",\"color\":\"#FB03F3FF\",\"date\":1774368000000},{\"id\":\"milestone_1773716660914\",\"name\":\"项目结束\",\"color\":\"#2802FBFF\",\"date\":1774886400000}]",
+            "city": "上海"
+          },
+          {
+            "id": "2033456961363689473",
+            "projectName": "测试222",
+            "status": 1,
+            "owner": "3",
+            "ownerName": "超级管理员",
+            "progress": 0.0,
+            "startDate": "2026-03-02",
+            "endDate": "2026-01-01",
+            "milestones": "",
+            "city": "杭州"
+          }
+        ],
+        "total": "7",
+        "size": "10",
+        "current": "1",
+        "orders": [
+          {
+            "column": "id",
+            "asc": true
+          }
+        ],
+        "optimizeCountSql": true,
+        "hitCount": false,
+        "countId": null,
+        "maxLimit": null,
+        "searchCount": true,
+        "pages": "1"
+      },
+      "msg": "ok",
+      "path": null,
+      "extra": null,
+      "timestamp": "1773731862583",
+      "success": true,
+      "isSuccess": true,
+      "isFail": false
+    },
+    "error_msg": "",
+    "executed_at": "2026-03-17 15:17:42"
+  },
+  {
+    "case_id": "PROJ_LIST-sort_desc",
+    "title": "按createTime降序",
+    "module": "项目列表/查询",
+    "status": "PASS",
+    "elapsed_ms": 38.11216354370117,
+    "request_body": {
+      "params": {
+        "current": 1,
+        "map": {}
+      },
+      "model": {
+        "order": "desc",
+        "size": 10,
+        "sort": "createTime"
+      }
+    },
+    "response_body": {
+      "code": 0,
+      "data": {
+        "records": [
+          {
+            "id": "2033460721607507970",
+            "projectName": "项目名称11",
+            "status": 1,
+            "owner": "1788894025252933633",
+            "ownerName": "杨国",
+            "progress": 68.0,
+            "startDate": "2026-03-09",
+            "endDate": "2026-03-16",
+            "milestones": "[{\"id\":\"milestone_1773649782912\",\"name\":\"节点1\",\"color\":\"#ef4444\",\"date\":\"2026-03-16\"}]",
+            "city": "杭州"
+          },
+          {
+            "id": "2033513630919602177",
+            "projectName": "测试0316",
+            "status": 1,
+            "owner": "1979077293170155522",
+            "ownerName": "熊振",
+            "progress": 60.0,
+            "startDate": "2026-03-09",
+            "endDate": "2026-03-11",
+            "milestones": "[{\"id\":\"milestone_1773662397718\",\"name\":\"节点1\",\"color\":\"#ef4444\",\"date\":\"2026-03-16\"}]",
+            "city": ""
+          },
+          {
+            "id": "2033514680275742721",
+            "projectName": "111111",
+            "status": 1,
+            "owner": "1979077293170155522",
+            "ownerName": "熊振",
+            "progress": 100.0,
+            "startDate": "2026-03-05",
+            "endDate": "2026-04-13",
+            "milestones": "[]",
+            "city": ""
+          },
+          {
+            "id": "2033715259258224641",
+            "projectName": "3.17新增项目",
+            "status": 2,
+            "owner": "2029796795590172673",
+            "ownerName": "roy.gu",
+            "progress": 0.0,
+            "startDate": "2026-03-03",
+            "endDate": "2026-04-01",
+            "milestones": "[]",
+            "city": "江苏南通"
+          },
+          {
+            "id": "2033719088892657665",
+            "projectName": "1221321",
+            "status": 1,
+            "owner": "2029796795590172673",
+            "ownerName": "roy.gu",
+            "progress": 50.0,
+            "startDate": "2026-03-02",
+            "endDate": "2026-03-30",
+            "milestones": "[{\"id\":\"milestone_1773711396846\",\"name\":\"投标日期\",\"color\":\"#FB0303FF\",\"date\":1774800000000},{\"id\":\"milestone_1773711507198\",\"name\":\"项目上线\",\"color\":\"#2E00FEFF\",\"date\":1775750400000}]",
+            "city": "江苏南通"
+          },
+          {
+            "id": "2033738337043685378",
+            "projectName": "这是一个非常重要非常有名气非常有钱非常有名提高企业知名度非常重要的项目之宁波可信数据空间提前实施部署",
+            "status": 1,
+            "owner": "2029796795590172673",
+            "ownerName": "roy.gu",
+            "progress": 2.0,
+            "startDate": "2026-02-27",
+            "endDate": "2027-11-24",
+            "milestones": "[{\"id\":\"milestone_1773716579699\",\"name\":\"快速知道要哪些东西\",\"color\":\"#ef4444\",\"date\":1772553600000},{\"id\":\"milestone_1773716603933\",\"name\":\"材料准备完成\",\"color\":\"#FFEE04FF\",\"date\":1772726400000},{\"id\":\"milestone_1773716627483\",\"name\":\"需求评审完成\",\"color\":\"#04FEEDFF\",\"date\":1773072000000},{\"id\":\"milestone_1773716654521\",\"name\":\"开发完成\",\"color\":\"#FB03F3FF\",\"date\":1774368000000},{\"id\":\"milestone_1773716660914\",\"name\":\"项目结束\",\"color\":\"#2802FBFF\",\"date\":1774886400000}]",
+            "city": "上海"
+          },
+          {
+            "id": "2033456961363689473",
+            "projectName": "测试222",
+            "status": 1,
+            "owner": "3",
+            "ownerName": "超级管理员",
+            "progress": 0.0,
+            "startDate": "2026-03-02",
+            "endDate": "2026-01-01",
+            "milestones": "",
+            "city": "杭州"
+          }
+        ],
+        "total": "7",
+        "size": "10",
+        "current": "1",
+        "orders": [
+          {
+            "column": "id",
+            "asc": true
+          }
+        ],
+        "optimizeCountSql": true,
+        "hitCount": false,
+        "countId": null,
+        "maxLimit": null,
+        "searchCount": true,
+        "pages": "1"
+      },
+      "msg": "ok",
+      "path": null,
+      "extra": null,
+      "timestamp": "1773731862616",
+      "success": true,
+      "isSuccess": true,
+      "isFail": false
+    },
+    "error_msg": "",
+    "executed_at": "2026-03-17 15:17:42"
+  },
+  {
+    "case_id": "PROJ_LIST-FIELD-001",
+    "title": "响应字段完整性校验",
+    "module": "项目列表/查询",
+    "status": "PASS",
+    "elapsed_ms": 38.8941764831543,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-17 15:17:42"
+  },
+  {
+    "case_id": "PROJ_LIST-BOUND-001",
+    "title": "current超出总页数",
+    "module": "项目列表/查询",
+    "status": "PASS",
+    "elapsed_ms": 32.122135162353516,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-17 15:17:42"
+  },
+  {
+    "case_id": "PROJ_LIST-AUTH-001",
+    "title": "无鉴权Token",
+    "module": "项目列表/查询",
+    "status": "PASS",
+    "elapsed_ms": 16.28422737121582,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-17 15:17:42"
+  },
+  {
+    "case_id": "PROJ_LIST-ERR-001",
+    "title": "请求体为空",
+    "module": "项目列表/查询",
+    "status": "PASS",
+    "elapsed_ms": 82.3662281036377,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-17 15:17:42"
+  },
+  {
+    "case_id": "PROJ_LIST-PERF-001",
+    "title": "列表查询响应时间基线（<5s）",
+    "module": "项目列表/性能",
+    "status": "PASS",
+    "elapsed_ms": 34.43002700805664,
+    "request_body": {},
+    "response_body": {},
+    "error_msg": "",
+    "executed_at": "2026-03-17 15:17:42"
+  }
+]

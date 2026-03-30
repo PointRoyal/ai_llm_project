@@ -1,0 +1,3 @@
+10:27:23 [DEBUG] [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate  →  200  (0.034s)
+  REQ : {"name": "自动化模板_vpnj", "title": "自动化测试标题", "titleDesc": "自动化测试描述", "contentElements": "正文要求：100字以上", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RESP: {"code": 0, "data": true, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492043709", "isSuccess": true, "success": true, "isFail": false}

@@ -1,0 +1,1 @@
+2026-03-26 10:27:16 [INFO] auto_test — 管理端 HttpClient 初始化，base_url=http://10.50.31.141:28002/gateway

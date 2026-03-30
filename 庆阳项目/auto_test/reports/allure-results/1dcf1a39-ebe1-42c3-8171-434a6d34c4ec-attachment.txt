@@ -1,0 +1,6 @@
+10:27:22 [DEBUG] [POST] http://10.50.31.141:28003/gateway/api/app/submission/saveSubmission  →  200  (0.049s)
+  REQ : {"title": "自动化投稿_rkyymi", "contentElements": "自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文自动化测试正文", "domainCode": "", "templateId": null, "anonymous": 0, "submitType": 0, "remark": "", "citationText": "", "attachments": []}
+  RESP: {"code": -9, "data": "", "msg": "领域code不能为空", "path": "/api/app/submission/saveSubmission", "extra": null, "timestamp": "1774492043166", "isSuccess": false, "success": false, "isFail": true}
+10:27:23 [DEBUG] [POST] http://10.50.31.141:28003/gateway/api/app/submission/pageMyselfSubmission  →  200  (0.101s)
+  REQ : {"current": 1, "size": 5, "sort": "", "order": "descending", "model": {"title": "", "status": "", "submitType": 0}, "map": {}, "timeRange": null}
+  RESP: {"code": 0, "data": {"records": [], "total": "0", "size": "5", "current": "1", "orders": [], "optimizeCountSql": true, "hitCount": false, "countId": null, "maxLimit": null, "searchCount": true, "pages": "0"}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492043213", "isSuccess": true, "success": true, "isFail": false}

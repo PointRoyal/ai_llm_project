@@ -1,0 +1,3 @@
+10:28:13 [DEBUG] [GET] http://10.50.31.141:28003/gateway/api/app/appUser/getByUseCode  →  200  (0.014s)
+  REQ : -
+  RESP: {"code": 0, "data": null, "msg": "查询结果为空", "path": null, "extra": null, "timestamp": "1774492093664", "isSuccess": true, "success": true, "isFail": false}

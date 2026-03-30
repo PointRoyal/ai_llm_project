@@ -1,0 +1,38 @@
+# ============================================================
+# 环境配置文件 —— 切换环境只需修改 active_env 字段
+# ============================================================
+
+active_env: dev
+
+environments:
+  dev:
+    host: "http://10.50.31.155:40699"
+    gateway: "/gateway"
+    bearer_token: "7ce931a4-f2db-4377-b08a-3c4bb07ad305"
+    admin_token: "eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImIyZDZjZjE1LWU2MGQtNDIwZi1iNDM2LTdhZDRmNGQzOWU4ZSJ9.gRrrCjU7gCqM4FLl071XIryC8XRxYJm4pCrdn3CEbwcRw5yG1GPkixAIdpDMvdDowqNNvvWclW_09aS04aAfQA"
+    timeout: 30
+    cookies:
+      username: "guxx"
+      rememberMe: "true"
+
+  test:
+    host: "http://10.50.31.155:40699"
+    gateway: "/gateway"
+    bearer_token: "替换为test环境token"
+    admin_token: "替换为test环境admin_token"
+    timeout: 30
+    cookies: {}
+
+# ============================================================
+# 全局测试参数
+# ============================================================
+test_settings:
+  # 重试次数（接口偶发失败时）
+  retry_count: 1
+  # 报告输出目录
+  report_dir: "reports"
+  # 日志级别: DEBUG / INFO / WARNING / ERROR
+  log_level: "INFO"
+  # 已知存在的项目ID（用于查询/更新测试）
+  existing_project_id: "2033738337043685378"
+  existing_project_name: "这是一个非常重要非常有名气非常有钱非常有名提高企业知名度非常重要的项目之宁波可信数据空间提前实施部署"

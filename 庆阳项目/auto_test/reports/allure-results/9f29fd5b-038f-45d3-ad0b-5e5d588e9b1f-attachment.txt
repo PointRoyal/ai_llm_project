@@ -1,0 +1,3 @@
+DEBUG    auto_test:http_client.py:115 [GET] http://10.50.31.141:28002/gateway/api/template/detailTemplate → 200 (0.050s)
+  REQ: -
+  RSP: {"code": 20004, "data": "", "msg": "模板不存在", "path": "/api/template/detailTemplate", "extra": null, "timestamp": "1774577963031", "success": false, "isSuccess": false, "isFail": true}

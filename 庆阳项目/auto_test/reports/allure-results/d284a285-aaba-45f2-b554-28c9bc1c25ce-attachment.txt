@@ -1,0 +1,3 @@
+10:27:16 [DEBUG] [GET] http://10.50.31.141:28002/gateway/api/submission/countReviewSubmission  →  200  (0.019s)
+  REQ : -
+  RESP: {"code": 0, "data": {"total": 0, "countAllocation": null, "countReceive": 0, "countAudit": 0, "countAuditing": 0, "countPass": 0, "countReject": 0, "countProcessing": null, "countTransfer": 0}, "msg": "ok", "path": null, "extra": null, "timestamp": "1774492036840", "isSuccess": true, "success": true, "isFail": false}

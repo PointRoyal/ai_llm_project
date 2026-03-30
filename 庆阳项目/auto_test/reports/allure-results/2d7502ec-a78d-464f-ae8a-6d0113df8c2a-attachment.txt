@@ -1,0 +1,3 @@
+DEBUG    auto_test:http_client.py:115 [GET] http://10.50.31.141:28003/gateway/api/app/submission/listTemplate → 200 (0.041s)
+  REQ: -
+  RSP: {"code": 0, "data": [{"id": "2036984755353759745", "name": "test_01", "iconUrl": "/dbapp/static/file/260320/1774000095474/template-1.png", "title": "我的模板标题", "titleDesc": "这是一个模板", "contentElements": "我的内容故事", "status": 1, "updateTime": null, "domains": [{"id": "2036984755399897090", "createTime": "2026-03-26 09:53:06", "createUser": "2036984254247677953", "updateTime": "2026-03-26 09:53:06", "updateUser": "2036984254247677953", "templateId": "2036984755353759745", "domainCode": "TD_HSGS", "doma

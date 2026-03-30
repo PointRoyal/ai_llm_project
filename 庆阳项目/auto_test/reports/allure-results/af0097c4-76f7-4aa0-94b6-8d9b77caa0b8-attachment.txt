@@ -1,0 +1,4 @@
+/Users/guxingxing/Library/Python/3.9/lib/python/site-packages/_pytest/python.py:161: PytestReturnNotNoneWarning: Test functions should return None, but testcases/test_submission.py::TestSubmission::test_save_draft returned <class 'dict'>.
+Did you mean to use `assert` instead of `return`?
+See https://docs.pytest.org/en/stable/how-to/assert.html#return-not-none for more information.
+  warnings.warn(

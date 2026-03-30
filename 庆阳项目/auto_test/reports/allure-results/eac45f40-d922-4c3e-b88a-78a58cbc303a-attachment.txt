@@ -1,0 +1,3 @@
+DEBUG    auto_test:http_client.py:48 [POST] http://10.50.31.141:28002/gateway/api/template/saveTemplate → 200 (0.014s)
+  REQ: {"name": "auto_gfbs", "title": "标题", "titleDesc": "", "contentElements": "", "domain": ["TD_HSGS"], "iconUrl": "", "status": 1}
+  RSP: {"code": 10002, "defExec": false, "isFail": true, "isSuccess": false, "msg": "用户登录已过期，请重新登录!", "success": false, "timestamp": 1774577168608}
